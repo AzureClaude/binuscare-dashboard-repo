@@ -1,0 +1,51 @@
+/* line 1, ../sass/reusable.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+/* Fonts */
+/* line 9, ../sass/reusable.scss */
+.open-sans-semibold {
+  font-weight: 600;
+}
+
+/* line 13, ../sass/reusable.scss */
+.open-sans-regular {
+  font-weight: 400;
+}
+
+/* line 17, ../sass/reusable.scss */
+.open-sans-bold {
+  font-weight: 700;
+}
+
+/* line 21, ../sass/reusable.scss */
+.wrapper {
+  margin: 0 16px;
+}
+
+/* Header */
+/* line 26, ../sass/reusable.scss */
+header {
+  height: 44px;
+  background: #028ED5;
+  padding: 12px 16px;
+  display: flex;
+}
+/* line 32, ../sass/reusable.scss */
+header .open-sans-semibold {
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-left: 8px;
+}
+
+/* line 40, ../sass/reusable.scss */
+.title {
+  margin-top: 24px;
+  font-size: 21px;
+  color: #5E5E5E;
+}

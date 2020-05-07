@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/form.css">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/reusable.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <title>Pencairan Dana</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="../binuscare-dashboard-repo/assets/icons/btn-back.svg"></a>
+        <span class="open-sans-semibold">Request Pencairan Dana</span>
+    </header>
+
+    <div class="wrapper">
+        <!-- Form Title -->
+        <div class="title">
+            <span class="open-sans-semibold">Pencairan Dana</span>
+        </div>
+        <!-- Form -->
+        <form action="#" id="pencairandanaForm" method="GET" autocomplete="off" name="form-pencairan-dana">
+            <div class="form-item">
+                <span class="open-sans-semibold">Amount</span>
+                <span><input type="text" name="amount" id="amount" class="input-field" /></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Purpose</span>
+                <span><textarea name="purpose" id="purpose" class="input-field"></textarea></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Evidence</span>
+                <div class="upload-file">
+                    <div id="placeholder">Choose file</div>
+                    <input type="file" name="evidence" id="evidence" class="custom-file"/>
+                </div>
+                <span class="reminder">*Evidence files are mandatory, but you can upload it later</span>
+            </div>
+                
+            <div class="form-button" style="margin-top: 85px;">
+                <input type="submit" value="REQUEST">
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript"
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+
+    <script>
+        (function($){
+            $(document).ready(function(){
+                $('#evidence').change(function(){
+                    var filename = $("#evidence").val();
+                    $("#placeholder").text(filename.replace("C:\\fakepath\\", "")); 
+                });
+            });
+        })(jQuery);
+    </script>
+
+</body>
+</html>

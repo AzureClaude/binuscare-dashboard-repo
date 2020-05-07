@@ -1,0 +1,29 @@
+.profile{
+    &-detail{
+        padding: 24px 0 32px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #D8D8D8;
+    
+        &-avatar{
+            background-image: url("../images/example2.jpg");
+            background-size: cover;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+        }
+    
+        &-name{
+            margin-left: 16px;
+            font-size: 16px;
+            color: #5E5E5E;
+        }
+    }
+
+    &-item{
+        padding: 16px 0;
+        border-bottom: 1px solid #D8D8D8;
+        font-size: 16px;
+        color: #5E5E5E;
+    }
+}

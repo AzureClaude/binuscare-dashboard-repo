@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/form.css">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/edit-galang-dana-saya.css">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/reusable.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <title>Edit Galang Dana Saya</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="../binuscare-dashboard-repo/assets/icons/btn-back.svg"></a>
+        <span class="open-sans-semibold">Edit Galang Dana Saya</span>
+    </header>
+
+    <div class="wrapper">
+        <!-- Form Title -->
+        <div class="title">
+            <span class="open-sans-semibold">Edit Galang Dana Saya</span>
+        </div>
+        <!-- Form -->
+        <form action="#" id="editGalangDanaForm" method="GET" autocomplete="off" name="form-edit-galang-dana">
+            <div class="form-item">
+                <span class="open-sans-semibold">Judul</span>
+                <span><input type="text" name="editTitle" id="editTitle" class="input-field" /></span>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Kategori</span>
+                <div class="select-box">
+                    <select class="editCategory" id="editCategory">
+                        <option value="Kesehatan">Kesehatan</option>
+                        <option value="Pendidikan">Pendidikan</option>
+                        <option value="Bencana">Bencana</option>
+                        <option value="Komunitas">Komunitas</option>
+                        <option value="Other">Lainnya</option>
+                    </select>
+                </div>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Cerita Singkat</span>
+                <span><textarea name="editSummary" id="editSummary" class="input-field"></textarea></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Feature Image</span>
+                <div class="upload-file">
+                    <div id="placeholder">Choose file</div>
+                    <input type="file" name="editFeatureImage" id="editFeatureImage" accept="image/*" class="custom-file"/>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Galeri</span>
+                <span><input type="file" name="gallery-image" id="gallery-image"/></span>
+                <div class="images-list">
+                    <div class="upload-image">
+                    </div>
+                    <div class="image-item">
+                    </div>
+                    <div class="image-item">
+                    </div>
+                    <div class="image-item">
+                    </div>
+                    <div class="image-item">
+                    </div>
+                    <div class="image-item">
+                    </div>
+                </div>
+            </div>
+                
+            <div class="form-button">
+                <input type="submit" value="REQUEST">
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript"
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+
+    <script>
+        (function($){
+            $(document).ready(function(){
+                $('#editFeatureImage').change(function(){
+                    var filename = $("#editFeatureImage").val();
+                    $("#placeholder").text(filename.replace("C:\\fakepath\\", "")); 
+                });
+
+                $('.upload-image').click(function(){
+                    $('#gallery-image').click();
+                });
+            });
+        })(jQuery);
+    </script>
+
+</body>
+</html>

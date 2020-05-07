@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', ;
+}
+
+/* Fonts */
+.open-sans-semibold{
+    font-weight: 600;
+}
+
+.open-sans-regular{
+    font-weight: 400;
+}
+
+.open-sans-bold{
+    font-weight: 700;
+}
+
+.wrapper{
+    margin: 0 16px;
+}
+
+/* Header */
+header{
+    height: 44px;
+    background: #028ED5;
+    padding: 12px 16px;
+    display: flex;
+
+    .open-sans-semibold{
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        margin-left: 8px;
+    }
+}
+
+.title{
+    margin-top: 24px;
+    font-size: 21px;
+    color: #5E5E5E;
+}

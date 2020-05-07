@@ -1,0 +1,14 @@
+/* line 1, ../sass/edit-galang-dana-saya.scss */
+.images-list {
+  display: grid;
+  grid-template-columns: repeat(2, 191px);
+  grid-gap: 2px;
+}
+/* line 6, ../sass/edit-galang-dana-saya.scss */
+.images-list .image-item {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  width: 191px;
+  height: 191px;
+  cursor: pointer;
+}

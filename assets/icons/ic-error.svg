@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ic-error</title>
+    <desc>Created with Sketch.</desc>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="19-error-message" transform="translate(-175.000000, -227.000000)">
+            <g id="Group-5" transform="translate(24.000000, 157.000000)">
+                <g id="ic-error" transform="translate(145.000000, 64.000000)">
+                    <polygon id="Path" points="0 0 80 0 80 80 0 80"></polygon>
+                    <path d="M40,6.66666667 C21.5666667,6.66666667 6.66666667,21.5666667 6.66666667,40 C6.66666667,58.4333333 21.5666667,73.3333333 40,73.3333333 C58.4333333,73.3333333 73.3333333,58.4333333 73.3333333,40 C73.3333333,21.5666667 58.4333333,6.66666667 40,6.66666667 Z" id="Path" fill="#D12119" fill-rule="nonzero"></path>
+                    <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="48.6333333 26.6666667 40 35.3 31.3666667 26.6666667 26.6666667 31.3666667 35.3 40 26.6666667 48.6333333 31.3666667 53.3333333 40 44.7 48.6333333 53.3333333 53.3333333 48.6333333 44.7 40 53.3333333 31.3666667"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

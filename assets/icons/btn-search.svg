@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>btn-search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="19-error-message" transform="translate(-346.000000, -14.000000)">
+            <g id="btn-search" transform="translate(342.000000, 10.000000)">
+                <rect id="Rectangle-16" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="24" height="24"></rect>
+                <path d="M11,16 C8.243,16 6,13.757 6,11 C6,8.243 8.243,6 11,6 C13.757,6 16,8.243 16,11 C16,13.757 13.757,16 11,16 M19.646,17.525 L16.892,14.771 C17.59,13.682 18,12.39 18,11 C18,7.134 14.866,4 11,4 C7.134,4 4,7.134 4,11 C4,14.866 7.134,18 11,18 C12.39,18 13.681,17.59 14.77,16.892 L17.524,19.646 C17.719,19.841 18.037,19.841 18.231,19.646 L19.646,18.232 C19.841,18.038 19.841,17.719 19.646,17.525" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

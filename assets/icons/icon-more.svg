@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="4px" viewBox="0 0 20 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon-more</title>
+    <desc>Created with Sketch.</desc>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-dashboard-sample-2-(jika-belum-ada-isinya)" transform="translate(-357.000000, -2196.000000)" fill="#FFFFFF">
+            <g id="Group-5" transform="translate(0.000000, 2026.000000)">
+                <g id="icon-more" transform="translate(357.000000, 170.000000)">
+                    <circle id="Oval" cx="2" cy="2" r="2"></circle>
+                    <circle id="Oval-Copy-9" cx="10" cy="2" r="2"></circle>
+                    <circle id="Oval-Copy-10" cx="18" cy="2" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

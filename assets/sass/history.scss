@@ -1,0 +1,64 @@
+body{
+    background: #F8F8F8;
+}
+
+.history{
+    margin-top: 24px;
+
+    &-item{
+        margin-top: 8px;
+        border-left: 6px solid #F3931B;
+        padding: 16px;
+        background: #FFFFFF;
+        box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.04);
+        border-radius: 0 6px 6px 0;
+
+        &-title{
+            font-size: 16px;
+            color: #5E5E5E;
+            line-height: 26px;
+        }
+
+        &-time{
+            margin-top: 4px;
+            font-size: 12px;
+            color: #A5A5A5;
+        }
+
+        &-content{
+            margin-top: 18px;
+            display: grid;
+            grid-template-rows: repeat(2, auto);
+            row-gap: 16px;
+
+            &-text{
+                font-size: 14px;
+                color: #5E5E5E;
+                line-height: 24px;
+            }
+            
+            &-files{
+                display: flex;
+
+                i{
+                    height: 14px;
+                }
+
+                .open-sans-regular{
+                    text-decoration: underline;
+                    margin-left: 8px;
+                    font-size: 12px;
+                    color: #5E5E5E;
+                }
+            }
+
+        }
+
+        &-campaign{
+            margin-top: 24px;
+            font-size: 12px;
+            color: #1B9AD7;
+            line-height: 20px;
+        }
+    }
+}

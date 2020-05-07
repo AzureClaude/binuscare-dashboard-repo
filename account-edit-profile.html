@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/form.css">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/reusable.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <title>Edit Profile</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="../binuscare-dashboard-repo/assets/icons/btn-back.svg"></a>
+        <span class="open-sans-semibold">Edit Profile</span>
+    </header>
+
+    <div class="wrapper">
+        <!-- Form Title -->
+        <div class="title">
+            <span class="open-sans-semibold">Edit Profile</span>
+        </div>
+        <!-- Form -->
+        <form action="#" id="editProfileForm" method="GET" autocomplete="off" name="form-edit-profile">
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Profile Picture</span>
+                <div class="upload-file">
+                    <div id="placeholder">Choose file</div>
+                    <input type="file" name="profilePicture" id="profilePicture" accept="image/*" class="custom-file"/>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Nama</span>
+                <span><input type="text" name="profileName" id="profileName" class="input-field" /></span>
+            </div>
+                
+            <div class="form-button" style="margin-top: 430px;">
+                <input type="submit" value="SAVE">
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript"
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+
+    <script>
+        (function($){
+            $(document).ready(function(){
+                $('#profilePicture').change(function(){
+                    var filename = $("#profilePicture").val();
+                    $("#placeholder").text(filename.replace("C:\\fakepath\\", "")); 
+                });
+            });
+        })(jQuery);
+    </script>
+
+</body>
+</html>

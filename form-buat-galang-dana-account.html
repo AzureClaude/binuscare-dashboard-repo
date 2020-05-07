@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/form.css">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/reusable.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <title>Buat Galang Dana</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="../binuscare-dashboard-repo/assets/icons/btn-back.svg"></a>
+        <span class="open-sans-semibold">Buat Galang Dana</span>
+    </header>
+
+    <div class="wrapper">
+        <!-- Form Title -->
+        <div class="title">
+            <span class="open-sans-semibold">Account Information</span>
+        </div>
+        <!-- Form -->
+        <form action="#" id="galangdanaAccountForm" method="GET" autocomplete="off" name="form-galang-dana-account">
+            <div class="form-item">
+                <span class="open-sans-semibold">Account Holder Name</span>
+                <span><input type="text" name="accountName" id="accountName" class="input-field" /></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Bank Name</span>
+                <span><input type="text" name="bankName" id="bankName" class="input-field" /></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Account Number</span>
+                <div class="select-box">
+                    <select class="accountNumber" id="accountNumber">
+                        <option value="0">0123456789</option>
+                    </select>
+                </div>
+                <span class="reminder">*Account information must be the information of the campaigner’s account</span>
+            </div>
+                
+            <div class="form-button" style="margin-top: 293px;">
+                <input type="submit" value="REQUEST GALANG DANA">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/form.css">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/reusable.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <title>Buat Galang Dana</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="../binuscare-dashboard-repo/assets/icons/btn-back.svg"></a>
+        <span class="open-sans-semibold">Buat Galang Dana</span>
+    </header>
+
+    <div class="wrapper">
+        <!-- Form Title -->
+        <div class="title">
+            <span class="open-sans-semibold">Buat Galang Dana</span>
+        </div>
+        <!-- Form -->
+        <form action="#" id="galangdanaForm" method="GET" autocomplete="off" name="form-galang-dana">
+            <div class="form-item">
+                <span class="open-sans-semibold">Judul</span>
+                <span><input type="text" name="title" id="title" class="input-field" /></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Penerima Bantuan (BINUSIAN ID)</span>
+                <span><input type="text" name="binusianID" id="binusianID" class="input-field" /></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Kategori</span>
+                <div class="select-box">
+                    <select class="category" id="category">
+                        <option value="Kesehatan">Kesehatan</option>
+                        <option value="Pendidikan">Pendidikan</option>
+                        <option value="Bencana">Bencana</option>
+                        <option value="Komunitas">Komunitas</option>
+                        <option value="Other">Lainnya</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Cerita Singkat</span>
+                <span><textarea name="summary" id="summary" class="input-field"></textarea></span>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Feature Image</span>
+                <div class="upload-file">
+                    <div id="placeholder">Choose file</div>
+                    <input type="file" name="featureImage" id="featureImage" accept="image/*" class="custom-file"/>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Target Dana</span>
+                <span><input type="text" name="target" id="target" class="input-field" /></span>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Batas Waktu</span>
+                <span><input type="text" name="date" id="date" class="datepicker"/></span>
+            </div>
+
+            <div class="form-item">
+                <span class="open-sans-semibold">Galeri</span>
+                <span><input type="file" name="gallery-image" id="gallery-image"/></span>
+                <div class="upload-image">
+                </div>
+            </div>
+                
+            <div class="form-button">
+                <input type="submit" value="NEXT">
+            </div>
+        </form>
+    </div>
+
+    <!-- JQuery -->
+    <script type="text/javascript"
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script>
+        (function($){
+            $(document).ready(function(){
+                var date_input=$('input[name="date"]');
+                var options={
+                    format: 'dd MM yyyy',
+                    todayHighlight: true,
+                    autoclose: true,
+                    forceParse: false,
+                    };
+                date_input.datepicker(options);
+
+                $('#featureImage').change(function(){
+                    var filename = $("#featureImage").val();
+                    $("#placeholder").text(filename.replace("C:\\fakepath\\", "")); 
+                });
+
+                $('.upload-image').click(function(){
+                    $('#gallery-image').click();
+                });
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>

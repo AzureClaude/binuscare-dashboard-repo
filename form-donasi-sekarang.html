@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/form.css">
+    <link rel="stylesheet" href="../binuscare-dashboard-repo/assets/css/reusable.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <title>Donasi Sekarang</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="../binuscare-dashboard-repo/assets/icons/btn-back.svg"></a>
+        <span class="open-sans-semibold">Donasi Sekarang</span>
+    </header>
+
+    <div class="wrapper">
+        <!-- Form Title -->
+        <div class="title">
+            <span class="open-sans-semibold">Donasi Sekarang</span>
+        </div>
+        <!-- Form -->
+        <form action="#" id="donateNowForm" method="GET" autocomplete="off" name="form-donasi-sekarang">
+            <div class="form-item">
+                <span class="open-sans-semibold">Amount</span>
+                <span><input type="text" name="donateAmount" id="donateAmount" class="input-field" /></span>
+            </div>
+                
+            <div class="form-item">
+                <span class="open-sans-semibold">Select Payment Method</span>
+                <div class="select-box">
+                    <select class="paymentMethod" id="paymentMethod">
+                        <option value="bcamobile">BCAMobile</option>
+                    </select>
+                </div>
+
+                <label class="checkbox-option">Hide your name as Anonymous
+                    <input type="checkbox" name="anonymous" id="anonymous" class="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+                
+            <div class="form-button" style="margin-top: 293px;">
+                <input type="submit" value="PROCEED">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

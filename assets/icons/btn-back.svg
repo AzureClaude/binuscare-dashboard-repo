@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>btn-back</title>
+    <desc>Created with Sketch.</desc>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16-history" transform="translate(-16.000000, -11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M19.6213203,21.5 L27.5606602,13.5606602 C28.1464466,12.9748737 28.1464466,12.0251263 27.5606602,11.4393398 C26.9748737,10.8535534 26.0251263,10.8535534 25.4393398,11.4393398 L16.4393398,20.4393398 C15.8535534,21.0251263 15.8535534,21.9748737 16.4393398,22.5606602 L25.4393398,31.5606602 C26.0251263,32.1464466 26.9748737,32.1464466 27.5606602,31.5606602 C28.1464466,30.9748737 28.1464466,30.0251263 27.5606602,29.4393398 L19.6213203,21.5 Z" id="btn-back"></path>
+        </g>
+    </g>
+</svg>
