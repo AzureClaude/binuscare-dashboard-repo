@@ -1,0 +1,418 @@
+/* line 1, ../sass/inside-galang-dana.scss */
+body {
+  background: #EBEBEB;
+}
+
+/* Banner */
+/* line 7, ../sass/inside-galang-dana.scss */
+.banner-img {
+  background-image: url("../images/example2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 183px;
+}
+
+/* Campaign */
+/* line 17, ../sass/inside-galang-dana.scss */
+.campaign {
+  background-color: #F8F8F8;
+  padding: 24px 0;
+}
+/* line 21, ../sass/inside-galang-dana.scss */
+.campaign-content {
+  /* Inside Galang Dana Saya*/
+  /* Inside Donasi Saya */
+}
+/* line 23, ../sass/inside-galang-dana.scss */
+.campaign-content-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 28, ../sass/inside-galang-dana.scss */
+.campaign-content-bar {
+  margin: 24px 0 9px;
+  background-color: #E5E5E5;
+  border-radius: 2px;
+}
+/* line 33, ../sass/inside-galang-dana.scss */
+.campaign-content-bar .progress-bar {
+  display: block;
+  width: 80%;
+  background-color: #F3931B;
+  padding: 2px 0;
+  content: "";
+  border-radius: 2px;
+}
+/* line 44, ../sass/inside-galang-dana.scss */
+.campaign-content-details .progress-text {
+  padding: 8px 0;
+  color: #666666;
+}
+/* line 48, ../sass/inside-galang-dana.scss */
+.campaign-content-details .progress-text .open-sans-regular {
+  font-size: 12px;
+}
+/* line 52, ../sass/inside-galang-dana.scss */
+.campaign-content-details .progress-text .open-sans-semibold {
+  margin-top: 2px;
+  font-size: 16px;
+}
+/* line 59, ../sass/inside-galang-dana.scss */
+.campaign-content-donate {
+  margin-top: 32px;
+}
+/* line 63, ../sass/inside-galang-dana.scss */
+.campaign-content-follow {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 16px;
+}
+/* line 71, ../sass/inside-galang-dana.scss */
+.campaign-content-buttons {
+  margin-top: 32px;
+  display: grid;
+  grid-template-rows: repeat(3, 44px);
+  row-gap: 16px;
+}
+/* line 79, ../sass/inside-galang-dana.scss */
+.campaign-content-share {
+  margin-top: 32px;
+}
+
+/* Author */
+/* line 86, ../sass/inside-galang-dana.scss */
+.author {
+  background-color: #F8F8F8;
+  margin-top: 8px;
+  padding: 24px 0;
+}
+/* line 92, ../sass/inside-galang-dana.scss */
+.author-content-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 97, ../sass/inside-galang-dana.scss */
+.author-content-profile {
+  padding: 32px 0;
+  display: grid;
+  grid-template-columns: 80px auto;
+  column-gap: 16px;
+  border-bottom: 1px solid #D8D8D8;
+}
+/* line 104, ../sass/inside-galang-dana.scss */
+.author-content-profile-photo {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+/* line 112, ../sass/inside-galang-dana.scss */
+.author-content-profile-name {
+  align-self: center;
+  color: #5E5E5E;
+}
+/* line 116, ../sass/inside-galang-dana.scss */
+.author-content-profile-name .open-sans-semibold {
+  font-size: 16px;
+}
+/* line 120, ../sass/inside-galang-dana.scss */
+.author-content-profile-name .open-sans-regular {
+  margin-top: 4px;
+  font-size: 12px;
+}
+/* line 127, ../sass/inside-galang-dana.scss */
+.author-content-summary {
+  margin-top: 24px;
+}
+/* line 130, ../sass/inside-galang-dana.scss */
+.author-content-summary .open-sans-regular {
+  font-size: 16px;
+  color: #5E5E5E;
+  line-height: 26px;
+}
+
+/* Summary */
+/* line 140, ../sass/inside-galang-dana.scss */
+.summary {
+  background-color: #F8F8F8;
+  margin-top: 8px;
+  padding: 24px 0;
+}
+/* line 146, ../sass/inside-galang-dana.scss */
+.summary-content-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 151, ../sass/inside-galang-dana.scss */
+.summary-content-text {
+  margin: 32px 0;
+  font-size: 16px;
+  color: #5E5E5E;
+  line-height: 26px;
+}
+/* line 158, ../sass/inside-galang-dana.scss */
+.summary-content-link {
+  text-align: center;
+}
+
+/* News */
+/* line 165, ../sass/inside-galang-dana.scss */
+.news {
+  background-color: #F8F8F8;
+  margin-top: 8px;
+  padding: 24px 0;
+}
+/* line 171, ../sass/inside-galang-dana.scss */
+.news-content-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 176, ../sass/inside-galang-dana.scss */
+.news-content-items {
+  margin: 32px 0;
+}
+/* line 179, ../sass/inside-galang-dana.scss */
+.news-content-items-card {
+  margin-top: 8px;
+  border-left: 6px solid #F3931B;
+  padding: 16px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 0 6px 6px 0;
+}
+/* line 187, ../sass/inside-galang-dana.scss */
+.news-content-items-card-title {
+  font-size: 16px;
+  color: #5E5E5E;
+  line-height: 26px;
+}
+/* line 193, ../sass/inside-galang-dana.scss */
+.news-content-items-card-time {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #A5A5A5;
+}
+/* line 199, ../sass/inside-galang-dana.scss */
+.news-content-items-card-attach {
+  margin-top: 18px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 16px;
+}
+/* line 205, ../sass/inside-galang-dana.scss */
+.news-content-items-card-attach .attachment-text {
+  font-size: 14px;
+  color: #5E5E5E;
+  line-height: 24px;
+}
+/* line 211, ../sass/inside-galang-dana.scss */
+.news-content-items-card-attach .attachment-files {
+  display: flex;
+}
+/* line 214, ../sass/inside-galang-dana.scss */
+.news-content-items-card-attach .attachment-files i {
+  height: 14px;
+}
+/* line 218, ../sass/inside-galang-dana.scss */
+.news-content-items-card-attach .attachment-files .open-sans-regular {
+  text-decoration: underline;
+  margin-left: 8px;
+  font-size: 12px;
+  color: #5E5E5E;
+}
+/* line 229, ../sass/inside-galang-dana.scss */
+.news-content-link {
+  text-align: center;
+}
+
+/* Gallery */
+/* line 236, ../sass/inside-galang-dana.scss */
+.gallery {
+  background-color: #F8F8F8;
+  margin-top: 8px;
+  padding: 24px 0;
+}
+/* line 241, ../sass/inside-galang-dana.scss */
+.gallery-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 246, ../sass/inside-galang-dana.scss */
+.gallery-content {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 191px);
+  grid-gap: 2px;
+}
+/* line 252, ../sass/inside-galang-dana.scss */
+.gallery-content .images-item {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  width: 191px;
+  height: 191px;
+}
+/* line 259, ../sass/inside-galang-dana.scss */
+.gallery-content .images-item-top-left {
+  border-radius: 6px 0px 0px 0px;
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  width: 191px;
+  height: 191px;
+}
+/* line 267, ../sass/inside-galang-dana.scss */
+.gallery-content .images-item-top-right {
+  border-radius: 0px 6px 0px 0px;
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  width: 191px;
+  height: 191px;
+}
+/* line 277, ../sass/inside-galang-dana.scss */
+.gallery-content .images-item-bottom-left {
+  border-radius: 0px 0px 0px 6px;
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  width: 191px;
+  height: 191px;
+}
+/* line 285, ../sass/inside-galang-dana.scss */
+.gallery-content .images-item-bottom-right {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  width: 191px;
+  height: 191px;
+  border-radius: 0px 0px 6px 0px;
+}
+/* line 292, ../sass/inside-galang-dana.scss */
+.gallery-content .images-item-bottom-right .blue-overlay {
+  background: rgba(27, 154, 215, 0.8);
+  border-radius: 0px 0px 6px 0px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  width: 191px;
+  height: 191px;
+  padding: 87px 0;
+}
+/* line 303, ../sass/inside-galang-dana.scss */
+.gallery-content .images-item-bottom-right .blue-overlay a {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Donator */
+/* line 316, ../sass/inside-galang-dana.scss */
+.donator {
+  background-color: #F8F8F8;
+  margin-top: 8px;
+  padding: 24px 0;
+}
+/* line 321, ../sass/inside-galang-dana.scss */
+.donator-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 326, ../sass/inside-galang-dana.scss */
+.donator-list {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 8px;
+}
+/* line 334, ../sass/inside-galang-dana.scss */
+.donator-list-card-content {
+  display: grid;
+  grid-template-columns: 80px auto;
+  column-gap: 24px;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding: 24px;
+}
+/* line 344, ../sass/inside-galang-dana.scss */
+.donator-list-card-content-photo {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+/* line 352, ../sass/inside-galang-dana.scss */
+.donator-list-card-content-profile {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 4px;
+}
+/* line 357, ../sass/inside-galang-dana.scss */
+.donator-list-card-content-profile-name {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 363, ../sass/inside-galang-dana.scss */
+.donator-list-card-content-profile-amount span {
+  font-size: 16px;
+  color: #5E5E5E;
+}
+/* line 369, ../sass/inside-galang-dana.scss */
+.donator-list-card-content-profile-time {
+  font-size: 12px;
+  color: #A5A5A5;
+}
+
+/* Report */
+/* line 380, ../sass/inside-galang-dana.scss */
+.report {
+  background-color: #F8F8F8;
+  margin-top: 8px;
+  padding: 24px 0;
+}
+/* line 385, ../sass/inside-galang-dana.scss */
+.report-text {
+  font-size: 16px;
+  color: #5E5E5E;
+  line-height: 26px;
+}
+/* line 391, ../sass/inside-galang-dana.scss */
+.report-button {
+  margin-top: 24px;
+  text-align: center;
+}
+/* line 395, ../sass/inside-galang-dana.scss */
+.report-button .report-btn {
+  border: 1px solid #CDCDCD;
+  cursor: pointer;
+  background: transparent;
+  color: #5E5E5E;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+  width: 183px;
+  height: 44px;
+  padding: 11px 0px 14px;
+}
+
+/* line 410, ../sass/inside-galang-dana.scss */
+.donate-now {
+  background-color: #F8F8F8;
+  margin-top: 8px;
+  padding: 16px;
+}
+/* line 415, ../sass/inside-galang-dana.scss */
+.donate-now .donate-btn {
+  border: none;
+  cursor: pointer;
+  background: #F3931B;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+  width: 100%;
+  height: 44px;
+  padding: 13px 0px 12px;
+}

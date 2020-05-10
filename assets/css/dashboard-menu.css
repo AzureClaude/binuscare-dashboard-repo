@@ -1,0 +1,766 @@
+/* Side menu */
+/* line 2, ../sass/dashboard-menu.scss */
+.menubar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 1px;
+  background-color: #FFFFFF;
+}
+/* line 14, ../sass/dashboard-menu.scss */
+.menubar .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  font-size: 25px;
+  color: #5E5E5E;
+  text-decoration: none;
+}
+/* line 23, ../sass/dashboard-menu.scss */
+.menubar-profile {
+  display: grid;
+  grid-template-columns: 80px auto;
+  column-gap: 16px;
+  padding: 68px 0 32px;
+  border-bottom: 1px solid #D8D8D8;
+  align-items: center;
+}
+/* line 31, ../sass/dashboard-menu.scss */
+.menubar-profile-photo {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+/* line 40, ../sass/dashboard-menu.scss */
+.menubar-profile-text-name {
+  font-size: 16px;
+  color: #5E5E5E;
+}
+/* line 45, ../sass/dashboard-menu.scss */
+.menubar-profile-text-edit {
+  margin-top: 8px;
+}
+/* line 48, ../sass/dashboard-menu.scss */
+.menubar-profile-text-edit .grey-btn {
+  width: 70px;
+  height: 32px;
+  font-size: 12px;
+  padding: 5px 0;
+}
+/* line 58, ../sass/dashboard-menu.scss */
+.menubar-item {
+  display: block;
+  padding: 16px 0;
+  border-bottom: 1px solid #D8D8D8;
+  font-size: 16px;
+  transition: 0.3s;
+}
+/* line 65, ../sass/dashboard-menu.scss */
+.menubar-item a {
+  color: #5E5E5E;
+  text-decoration: none;
+}
+/* line 71, ../sass/dashboard-menu.scss */
+.menubar-logout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* line 76, ../sass/dashboard-menu.scss */
+.menubar-logout .log-out-btn {
+  border: none;
+  width: 100%;
+  height: 54px;
+  background: #ECECEC;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #5E5E5E;
+  cursor: pointer;
+}
+
+/* line 90, ../sass/dashboard-menu.scss */
+body {
+  background: #EBEBEB;
+}
+
+/* line 94, ../sass/dashboard-menu.scss */
+header {
+  height: 44px;
+  background: #028ED5;
+  padding: 11px 16px;
+  display: grid;
+  grid-template-columns: auto 24px 24px;
+  column-gap: 8px;
+  align-items: center;
+}
+/* line 103, ../sass/dashboard-menu.scss */
+header .open-sans-bold {
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+/* line 109, ../sass/dashboard-menu.scss */
+header #btn-search {
+  justify-self: right;
+  cursor: pointer;
+}
+/* line 114, ../sass/dashboard-menu.scss */
+header #btn-menu {
+  justify-self: right;
+  cursor: pointer;
+}
+
+/* Banner */
+/* line 121, ../sass/dashboard-menu.scss */
+.carousel {
+  background-color: #F8F8F8;
+  padding: 32px 0;
+}
+/* line 125, ../sass/dashboard-menu.scss */
+.carousel .banner {
+  position: relative;
+}
+/* line 129, ../sass/dashboard-menu.scss */
+.carousel-item {
+  background-image: url("../images/example2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  width: 100%;
+  height: 170px;
+}
+/* line 137, ../sass/dashboard-menu.scss */
+.carousel-item-overlay {
+  background-image: linear-gradient(90deg, #000000 1%, transparent 99%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  width: 100%;
+  height: 170px;
+  padding: 16px;
+}
+/* line 147, ../sass/dashboard-menu.scss */
+.carousel-item-title {
+  width: 226px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/* Donation */
+/* line 156, ../sass/dashboard-menu.scss */
+.donation {
+  margin-top: 8px;
+  background-color: #F8F8F8;
+  padding: 24px 0;
+}
+/* line 161, ../sass/dashboard-menu.scss */
+.donation-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 166, ../sass/dashboard-menu.scss */
+.donation-desc {
+  margin-top: 16px;
+  width: 320px;
+  font-size: 14px;
+  color: #5E5E5E;
+  line-height: 22px;
+}
+/* line 174, ../sass/dashboard-menu.scss */
+.donation-slider {
+  margin: 32px 0;
+}
+/* line 179, ../sass/dashboard-menu.scss */
+.donation-content-card {
+  display: block;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  width: 334px;
+  padding-bottom: 24px;
+}
+/* line 188, ../sass/dashboard-menu.scss */
+.donation-content-card-img {
+  background-image: url("../images/example2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 148px;
+}
+/* line 196, ../sass/dashboard-menu.scss */
+.donation-content-card-title {
+  margin-top: 17px;
+  font-size: 16px;
+  color: #5E5E5E;
+  line-height: 24px;
+}
+/* line 203, ../sass/dashboard-menu.scss */
+.donation-content-card-bar {
+  margin-top: 23px;
+  background-color: #E5E5E5;
+  border-radius: 2px;
+}
+/* line 208, ../sass/dashboard-menu.scss */
+.donation-content-card-bar .progress-bar {
+  display: block;
+  width: 80%;
+  background-color: #F3931B;
+  padding: 2px 0;
+  content: "";
+  border-radius: 2px;
+}
+/* line 218, ../sass/dashboard-menu.scss */
+.donation-content-card-info {
+  margin-top: 9px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 17px 22px;
+  row-gap: 2px;
+}
+/* line 225, ../sass/dashboard-menu.scss */
+.donation-content-card-info .collected {
+  justify-self: left;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 232, ../sass/dashboard-menu.scss */
+.donation-content-card-info .amount {
+  justify-self: left;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 600;
+}
+/* line 239, ../sass/dashboard-menu.scss */
+.donation-content-card-info .duration {
+  justify-self: right;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 246, ../sass/dashboard-menu.scss */
+.donation-content-card-info .days {
+  justify-self: right;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 600;
+}
+/* line 255, ../sass/dashboard-menu.scss */
+.donation-content-new {
+  display: block;
+  background: #F3931B;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  width: 334px;
+  height: 314px;
+  padding: 16px;
+  cursor: pointer;
+}
+/* line 266, ../sass/dashboard-menu.scss */
+.donation-content-new-icon {
+  margin-top: 117px;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 272, ../sass/dashboard-menu.scss */
+.donation-content-new .new-donate-btn {
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 22px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+  width: 302px;
+  height: 44px;
+  position: absolute;
+  bottom: 16px;
+}
+/* line 290, ../sass/dashboard-menu.scss */
+.donation-link {
+  text-align: center;
+}
+
+/* Galang Dana Saya */
+/* line 296, ../sass/dashboard-menu.scss */
+.campaign {
+  margin-top: 8px;
+  background-color: #F8F8F8;
+  padding: 24px 0;
+}
+/* line 301, ../sass/dashboard-menu.scss */
+.campaign-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 306, ../sass/dashboard-menu.scss */
+.campaign-desc {
+  margin-top: 16px;
+  width: 320px;
+  font-size: 14px;
+  color: #5E5E5E;
+  line-height: 22px;
+}
+/* line 314, ../sass/dashboard-menu.scss */
+.campaign-create {
+  margin-top: 32px;
+}
+/* line 317, ../sass/dashboard-menu.scss */
+.campaign-create-btn {
+  border: none;
+  border-radius: 6px;
+  background: #F3931B;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  padding: 14px;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 327, ../sass/dashboard-menu.scss */
+.campaign-create-btn-icon {
+  padding: 8px;
+}
+/* line 331, ../sass/dashboard-menu.scss */
+.campaign-create-btn-text {
+  margin-left: 16.4px;
+  width: 296px;
+  height: 44px;
+  padding: 11px 19px 11px 49px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 22px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+/* line 344, ../sass/dashboard-menu.scss */
+.campaign-list {
+  margin-top: 32px;
+}
+/* line 347, ../sass/dashboard-menu.scss */
+.campaign-list-card {
+  display: grid;
+  grid-template-columns: 132px auto;
+  grid-template-rows: 1fr 4px 38px;
+  row-gap: 8px;
+  height: 132px;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-top: 16px;
+  padding-bottom: 8px;
+}
+/* line 360, ../sass/dashboard-menu.scss */
+.campaign-list-card-img {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 132px;
+  height: 132px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+/* line 370, ../sass/dashboard-menu.scss */
+.campaign-list-card-title {
+  margin-top: 10px;
+  height: 44px;
+  padding: 0 16px;
+  color: #666666;
+  font-size: 16px;
+  overflow: hidden;
+}
+/* line 379, ../sass/dashboard-menu.scss */
+.campaign-list-card-bar {
+  margin: 0 16px;
+  background-color: #E5E5E5;
+  border-radius: 2px;
+}
+/* line 384, ../sass/dashboard-menu.scss */
+.campaign-list-card-bar .progress-bar {
+  display: block;
+  width: 80%;
+  background-color: #F3931B;
+  padding: 2px 0;
+  content: "";
+  border-radius: 2px;
+}
+/* line 394, ../sass/dashboard-menu.scss */
+.campaign-list-card-info {
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 17px 19px;
+  row-gap: 2px;
+}
+/* line 401, ../sass/dashboard-menu.scss */
+.campaign-list-card-info .collected {
+  justify-self: left;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 408, ../sass/dashboard-menu.scss */
+.campaign-list-card-info .amount {
+  justify-self: left;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 600;
+}
+/* line 415, ../sass/dashboard-menu.scss */
+.campaign-list-card-info .duration {
+  justify-self: right;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 422, ../sass/dashboard-menu.scss */
+.campaign-list-card-info .days {
+  justify-self: right;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 600;
+}
+/* line 432, ../sass/dashboard-menu.scss */
+.campaign-link {
+  margin-top: 32px;
+  text-align: center;
+}
+
+/* Following */
+/* line 439, ../sass/dashboard-menu.scss */
+.follow {
+  margin-top: 8px;
+  background-color: #F8F8F8;
+  padding: 24px 0;
+}
+/* line 444, ../sass/dashboard-menu.scss */
+.follow-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 449, ../sass/dashboard-menu.scss */
+.follow-desc {
+  margin-top: 16px;
+  width: 320px;
+  font-size: 14px;
+  color: #5E5E5E;
+  line-height: 22px;
+}
+/* line 457, ../sass/dashboard-menu.scss */
+.follow-list {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 16px;
+}
+/* line 464, ../sass/dashboard-menu.scss */
+.follow-list-card {
+  display: block;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding-bottom: 24px;
+}
+/* line 472, ../sass/dashboard-menu.scss */
+.follow-list-card-img {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 183px;
+}
+/* line 480, ../sass/dashboard-menu.scss */
+.follow-list-card-title {
+  margin-top: 17px;
+  font-size: 16px;
+  color: #5E5E5E;
+  line-height: 24px;
+  overflow: hidden;
+  height: 48px;
+}
+/* line 489, ../sass/dashboard-menu.scss */
+.follow-list-card-bar {
+  margin-top: 47px;
+  background-color: #E5E5E5;
+  border-radius: 2px;
+}
+/* line 494, ../sass/dashboard-menu.scss */
+.follow-list-card-bar .progress-bar {
+  display: block;
+  width: 80%;
+  background-color: #F3931B;
+  padding: 2px 0;
+  content: "";
+  border-radius: 2px;
+}
+/* line 504, ../sass/dashboard-menu.scss */
+.follow-list-card-info {
+  margin-top: 9px;
+  display: grid;
+  grid-template-rows: 17px 22px;
+  row-gap: 2px;
+}
+/* line 510, ../sass/dashboard-menu.scss */
+.follow-list-card-info .collected {
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 516, ../sass/dashboard-menu.scss */
+.follow-list-card-info .amount {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 600;
+}
+/* line 525, ../sass/dashboard-menu.scss */
+.follow-link {
+  margin-top: 32px;
+  text-align: center;
+}
+
+/* Category */
+/* line 532, ../sass/dashboard-menu.scss */
+.category {
+  margin-top: 8px;
+  background-color: #F8F8F8;
+  padding: 24px 0;
+}
+/* line 537, ../sass/dashboard-menu.scss */
+.category-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 542, ../sass/dashboard-menu.scss */
+.category-desc {
+  margin: 16px 0 32px;
+  width: 320px;
+  font-size: 14px;
+  color: #5E5E5E;
+  line-height: 22px;
+}
+/* line 550, ../sass/dashboard-menu.scss */
+.category-buttons {
+  display: flex;
+  margin: 0 -11px;
+}
+/* line 554, ../sass/dashboard-menu.scss */
+.category-buttons-item {
+  padding: 0 11px;
+  text-align: center;
+}
+/* line 559, ../sass/dashboard-menu.scss */
+.category-buttons-item-btn .category-btn {
+  border: none;
+  border-radius: 50%;
+  background: #F3931B;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+}
+/* line 567, ../sass/dashboard-menu.scss */
+.category-buttons-item-btn .category-btn .default {
+  margin: auto;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+/* line 574, ../sass/dashboard-menu.scss */
+.category-buttons-item-btn .category-btn .active {
+  margin: auto;
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+/* line 581, ../sass/dashboard-menu.scss */
+.category-buttons-item-btn .category-btn:focus {
+  border: 1px solid #F3931B;
+  background: transparent;
+}
+/* line 585, ../sass/dashboard-menu.scss */
+.category-buttons-item-btn .category-btn:focus .default {
+  display: none;
+}
+/* line 589, ../sass/dashboard-menu.scss */
+.category-buttons-item-btn .category-btn:focus .active {
+  display: block;
+}
+/* line 596, ../sass/dashboard-menu.scss */
+.category-buttons-item-text {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #666666;
+  letter-spacing: 0;
+}
+/* line 605, ../sass/dashboard-menu.scss */
+.category-list {
+  margin-top: 32px;
+}
+/* line 608, ../sass/dashboard-menu.scss */
+.category-list-card {
+  display: grid;
+  grid-template-columns: 132px auto;
+  grid-template-rows: 1fr 4px 38px;
+  row-gap: 8px;
+  height: 132px;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-top: 16px;
+  padding-bottom: 8px;
+}
+/* line 621, ../sass/dashboard-menu.scss */
+.category-list-card-img {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 132px;
+  height: 132px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+/* line 631, ../sass/dashboard-menu.scss */
+.category-list-card-title {
+  margin-top: 10px;
+  height: 44px;
+  padding: 0 16px;
+  color: #666666;
+  font-size: 16px;
+  overflow: hidden;
+}
+/* line 640, ../sass/dashboard-menu.scss */
+.category-list-card-bar {
+  margin: 0 16px;
+  background-color: #E5E5E5;
+  border-radius: 2px;
+}
+/* line 645, ../sass/dashboard-menu.scss */
+.category-list-card-bar .progress-bar {
+  display: block;
+  width: 80%;
+  background-color: #F3931B;
+  padding: 2px 0;
+  content: "";
+  border-radius: 2px;
+}
+/* line 655, ../sass/dashboard-menu.scss */
+.category-list-card-info {
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 17px 19px;
+  row-gap: 2px;
+}
+/* line 662, ../sass/dashboard-menu.scss */
+.category-list-card-info .collected {
+  justify-self: left;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 669, ../sass/dashboard-menu.scss */
+.category-list-card-info .amount {
+  justify-self: left;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 600;
+}
+/* line 676, ../sass/dashboard-menu.scss */
+.category-list-card-info .duration {
+  justify-self: right;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+}
+/* line 683, ../sass/dashboard-menu.scss */
+.category-list-card-info .days {
+  justify-self: right;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 600;
+}
+/* line 693, ../sass/dashboard-menu.scss */
+.category-link {
+  margin-top: 32px;
+  text-align: center;
+}
+
+/* News */
+/* line 700, ../sass/dashboard-menu.scss */
+.news {
+  margin-top: 8px;
+  background-color: #F8F8F8;
+  padding: 24px 0;
+}
+/* line 705, ../sass/dashboard-menu.scss */
+.news-title {
+  font-size: 21px;
+  color: #5E5E5E;
+}
+/* line 710, ../sass/dashboard-menu.scss */
+.news-desc {
+  margin: 16px 0 32px;
+  width: 320px;
+  font-size: 14px;
+  color: #5E5E5E;
+  line-height: 22px;
+}
+/* line 718, ../sass/dashboard-menu.scss */
+.news-list {
+  margin-top: 32px;
+}
+/* line 721, ../sass/dashboard-menu.scss */
+.news-list-card {
+  display: grid;
+  grid-template-columns: 132px auto;
+  height: 132px;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-top: 16px;
+  padding-bottom: 8px;
+}
+/* line 732, ../sass/dashboard-menu.scss */
+.news-list-card-img {
+  background-image: url("../images/example2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 132px;
+  height: 132px;
+}
+/* line 740, ../sass/dashboard-menu.scss */
+.news-list-card-text {
+  padding: 0 12px;
+}
+/* line 743, ../sass/dashboard-menu.scss */
+.news-list-card-text-title {
+  margin-top: 10px;
+  color: #666666;
+  font-size: 16px;
+  overflow: hidden;
+}
+/* line 750, ../sass/dashboard-menu.scss */
+.news-list-card-text-date {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 759, ../sass/dashboard-menu.scss */
+.news-link {
+  margin-top: 32px;
+  text-align: center;
+}

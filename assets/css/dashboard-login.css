@@ -1,0 +1,87 @@
+@font-face {
+  font-family: open-sans-light;
+  src: url("../fonts/open-sans.light.ttf");
+}
+/* line 6, ../sass/dashboard-login.scss */
+body {
+  background-image: linear-gradient(to bottom, #1B9AD7, #631A69);
+  background-repeat: no-repeat;
+}
+
+/* line 11, ../sass/dashboard-login.scss */
+.background {
+  background-image: url("../images/bckground-login.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 20, ../sass/dashboard-login.scss */
+.container {
+  margin: auto 16px;
+  text-align: center;
+}
+/* line 24, ../sass/dashboard-login.scss */
+.container .login-title {
+  padding-top: 241px;
+  font-size: 41px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+/* line 31, ../sass/dashboard-login.scss */
+.container .login-title .open-sans-light {
+  font-family: open-sans-light;
+  line-height: 56px;
+}
+/* line 37, ../sass/dashboard-login.scss */
+.container form {
+  margin-top: 24px;
+}
+/* line 40, ../sass/dashboard-login.scss */
+.container form .login-item {
+  margin-top: 16px;
+}
+/* line 43, ../sass/dashboard-login.scss */
+.container form .login-item .login-box {
+  border: none;
+  width: 100%;
+  height: 44px;
+  border-radius: 6px;
+  padding: 11px 16.7px;
+  box-sizing: border-box;
+}
+/* line 51, ../sass/dashboard-login.scss */
+.container form .login-item .login-box::placeholder {
+  font-size: 17px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+}
+/* line 58, ../sass/dashboard-login.scss */
+.container form .login-item #username::placeholder {
+  color: #999999;
+}
+/* line 62, ../sass/dashboard-login.scss */
+.container form .login-item #password::placeholder {
+  color: #CDCDCD;
+}
+/* line 67, ../sass/dashboard-login.scss */
+.container form .form-button {
+  margin-top: 24px;
+}
+/* line 70, ../sass/dashboard-login.scss */
+.container form .form-button input[type="submit"] {
+  width: 100%;
+  height: 44px;
+  border: none;
+  background-color: #F3931B;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 13px 0px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+}

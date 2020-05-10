@@ -8,8 +8,8 @@
 
 /* Fonts */
 /* line 9, ../sass/reusable.scss */
-.open-sans-semibold {
-  font-weight: 600;
+.open-sans-light {
+  font-weight: 100;
 }
 
 /* line 13, ../sass/reusable.scss */
@@ -18,34 +18,103 @@
 }
 
 /* line 17, ../sass/reusable.scss */
+.open-sans-semibold {
+  font-weight: 600;
+}
+
+/* line 21, ../sass/reusable.scss */
 .open-sans-bold {
   font-weight: 700;
 }
 
-/* line 21, ../sass/reusable.scss */
+/* Mobile Container*/
+/* line 26, ../sass/reusable.scss */
+.outer-container {
+  margin: auto;
+  width: 414px;
+  height: 812px;
+}
+
+/* Container */
+/* line 33, ../sass/reusable.scss */
 .wrapper {
   margin: 0 16px;
 }
 
 /* Header */
-/* line 26, ../sass/reusable.scss */
-header {
+/* line 40, ../sass/reusable.scss */
+.header-blue {
   height: 44px;
   background: #028ED5;
   padding: 12px 16px;
   display: flex;
 }
-/* line 32, ../sass/reusable.scss */
-header .open-sans-semibold {
+/* line 46, ../sass/reusable.scss */
+.header-blue .open-sans-semibold {
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0;
   margin-left: 8px;
 }
+/* line 54, ../sass/reusable.scss */
+.header-transparent {
+  width: 100%;
+  height: 44px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+  padding: 12px 16px;
+  position: absolute;
+  z-index: 3;
+}
 
-/* line 40, ../sass/reusable.scss */
+/* line 64, ../sass/reusable.scss */
 .title {
   margin-top: 24px;
   font-size: 21px;
   color: #5E5E5E;
+}
+
+/* Transparent Button*/
+/* line 71, ../sass/reusable.scss */
+.transparent-button {
+  border: 1px solid #1B9AD7;
+  cursor: pointer;
+  background: transparent;
+  color: #1B9AD7;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 16px;
+  width: 160px;
+  height: 32px;
+  padding: 5px 0px;
+}
+
+/* Grey Button*/
+/* line 85, ../sass/reusable.scss */
+.grey-btn {
+  border: 1px solid #CDCDCD;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #5E5E5E;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+  width: 100%;
+  height: 44px;
+  padding: 13px 0 12px;
+}
+
+/* Orange Button */
+/* line 100, ../sass/reusable.scss */
+.orange-btn {
+  border: none;
+  cursor: pointer;
+  background: #F3931B;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+  width: 100%;
+  height: 44px;
+  padding: 13px 0px 12px;
 }
