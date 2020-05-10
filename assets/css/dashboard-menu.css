@@ -91,7 +91,31 @@ body {
   background: #EBEBEB;
 }
 
-/* line 94, ../sass/dashboard-menu.scss */
+/* Black Overlay */
+/* line 95, ../sass/dashboard-menu.scss */
+#black-overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 104, ../sass/dashboard-menu.scss */
+.default#black-overlay.active {
+  display: block;
+}
+
+/* Blur Background */
+/* line 109, ../sass/dashboard-menu.scss */
+.default#blur-overlay.active {
+  filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* line 115, ../sass/dashboard-menu.scss */
 header {
   height: 44px;
   background: #028ED5;
@@ -101,34 +125,34 @@ header {
   column-gap: 8px;
   align-items: center;
 }
-/* line 103, ../sass/dashboard-menu.scss */
+/* line 124, ../sass/dashboard-menu.scss */
 header .open-sans-bold {
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0;
 }
-/* line 109, ../sass/dashboard-menu.scss */
+/* line 130, ../sass/dashboard-menu.scss */
 header #btn-search {
   justify-self: right;
   cursor: pointer;
 }
-/* line 114, ../sass/dashboard-menu.scss */
+/* line 135, ../sass/dashboard-menu.scss */
 header #btn-menu {
   justify-self: right;
   cursor: pointer;
 }
 
 /* Banner */
-/* line 121, ../sass/dashboard-menu.scss */
+/* line 142, ../sass/dashboard-menu.scss */
 .carousel {
   background-color: #F8F8F8;
   padding: 32px 0;
 }
-/* line 125, ../sass/dashboard-menu.scss */
+/* line 146, ../sass/dashboard-menu.scss */
 .carousel .banner {
   position: relative;
 }
-/* line 129, ../sass/dashboard-menu.scss */
+/* line 150, ../sass/dashboard-menu.scss */
 .carousel-item {
   background-image: url("../images/example2.jpg");
   background-repeat: no-repeat;
@@ -137,7 +161,7 @@ header #btn-menu {
   width: 100%;
   height: 170px;
 }
-/* line 137, ../sass/dashboard-menu.scss */
+/* line 158, ../sass/dashboard-menu.scss */
 .carousel-item-overlay {
   background-image: linear-gradient(90deg, #000000 1%, transparent 99%);
   background-repeat: no-repeat;
@@ -147,7 +171,7 @@ header #btn-menu {
   height: 170px;
   padding: 16px;
 }
-/* line 147, ../sass/dashboard-menu.scss */
+/* line 168, ../sass/dashboard-menu.scss */
 .carousel-item-title {
   width: 226px;
   font-size: 16px;
@@ -155,18 +179,18 @@ header #btn-menu {
 }
 
 /* Donation */
-/* line 156, ../sass/dashboard-menu.scss */
+/* line 177, ../sass/dashboard-menu.scss */
 .donation {
   margin-top: 8px;
   background-color: #F8F8F8;
   padding: 24px 0;
 }
-/* line 161, ../sass/dashboard-menu.scss */
+/* line 182, ../sass/dashboard-menu.scss */
 .donation-title {
   font-size: 21px;
   color: #5E5E5E;
 }
-/* line 166, ../sass/dashboard-menu.scss */
+/* line 187, ../sass/dashboard-menu.scss */
 .donation-desc {
   margin-top: 16px;
   width: 320px;
@@ -174,11 +198,11 @@ header #btn-menu {
   color: #5E5E5E;
   line-height: 22px;
 }
-/* line 174, ../sass/dashboard-menu.scss */
+/* line 195, ../sass/dashboard-menu.scss */
 .donation-slider {
   margin: 32px 0;
 }
-/* line 179, ../sass/dashboard-menu.scss */
+/* line 200, ../sass/dashboard-menu.scss */
 .donation-content-card {
   display: block;
   background: #ffffff;
@@ -188,7 +212,7 @@ header #btn-menu {
   width: 334px;
   padding-bottom: 24px;
 }
-/* line 188, ../sass/dashboard-menu.scss */
+/* line 209, ../sass/dashboard-menu.scss */
 .donation-content-card-img {
   background-image: url("../images/example2.jpg");
   background-repeat: no-repeat;
@@ -196,20 +220,20 @@ header #btn-menu {
   width: 100%;
   height: 148px;
 }
-/* line 196, ../sass/dashboard-menu.scss */
+/* line 217, ../sass/dashboard-menu.scss */
 .donation-content-card-title {
   margin-top: 17px;
   font-size: 16px;
   color: #5E5E5E;
   line-height: 24px;
 }
-/* line 203, ../sass/dashboard-menu.scss */
+/* line 224, ../sass/dashboard-menu.scss */
 .donation-content-card-bar {
   margin-top: 23px;
   background-color: #E5E5E5;
   border-radius: 2px;
 }
-/* line 208, ../sass/dashboard-menu.scss */
+/* line 229, ../sass/dashboard-menu.scss */
 .donation-content-card-bar .progress-bar {
   display: block;
   width: 80%;
@@ -218,7 +242,7 @@ header #btn-menu {
   content: "";
   border-radius: 2px;
 }
-/* line 218, ../sass/dashboard-menu.scss */
+/* line 239, ../sass/dashboard-menu.scss */
 .donation-content-card-info {
   margin-top: 9px;
   display: grid;
@@ -226,35 +250,35 @@ header #btn-menu {
   grid-template-rows: 17px 22px;
   row-gap: 2px;
 }
-/* line 225, ../sass/dashboard-menu.scss */
+/* line 246, ../sass/dashboard-menu.scss */
 .donation-content-card-info .collected {
   justify-self: left;
   font-size: 12px;
   color: #666666;
   font-weight: 400;
 }
-/* line 232, ../sass/dashboard-menu.scss */
+/* line 253, ../sass/dashboard-menu.scss */
 .donation-content-card-info .amount {
   justify-self: left;
   font-size: 16px;
   color: #666666;
   font-weight: 600;
 }
-/* line 239, ../sass/dashboard-menu.scss */
+/* line 260, ../sass/dashboard-menu.scss */
 .donation-content-card-info .duration {
   justify-self: right;
   font-size: 12px;
   color: #666666;
   font-weight: 400;
 }
-/* line 246, ../sass/dashboard-menu.scss */
+/* line 267, ../sass/dashboard-menu.scss */
 .donation-content-card-info .days {
   justify-self: right;
   font-size: 16px;
   color: #666666;
   font-weight: 600;
 }
-/* line 255, ../sass/dashboard-menu.scss */
+/* line 276, ../sass/dashboard-menu.scss */
 .donation-content-new {
   display: block;
   background: #F3931B;
@@ -266,13 +290,13 @@ header #btn-menu {
   padding: 16px;
   cursor: pointer;
 }
-/* line 266, ../sass/dashboard-menu.scss */
+/* line 287, ../sass/dashboard-menu.scss */
 .donation-content-new-icon {
   margin-top: 117px;
   text-align: center;
   cursor: pointer;
 }
-/* line 272, ../sass/dashboard-menu.scss */
+/* line 293, ../sass/dashboard-menu.scss */
 .donation-content-new .new-donate-btn {
   border: none;
   background: rgba(255, 255, 255, 0.2);
@@ -288,24 +312,24 @@ header #btn-menu {
   position: absolute;
   bottom: 16px;
 }
-/* line 290, ../sass/dashboard-menu.scss */
+/* line 311, ../sass/dashboard-menu.scss */
 .donation-link {
   text-align: center;
 }
 
 /* Galang Dana Saya */
-/* line 296, ../sass/dashboard-menu.scss */
+/* line 317, ../sass/dashboard-menu.scss */
 .campaign {
   margin-top: 8px;
   background-color: #F8F8F8;
   padding: 24px 0;
 }
-/* line 301, ../sass/dashboard-menu.scss */
+/* line 322, ../sass/dashboard-menu.scss */
 .campaign-title {
   font-size: 21px;
   color: #5E5E5E;
 }
-/* line 306, ../sass/dashboard-menu.scss */
+/* line 327, ../sass/dashboard-menu.scss */
 .campaign-desc {
   margin-top: 16px;
   width: 320px;
@@ -313,11 +337,11 @@ header #btn-menu {
   color: #5E5E5E;
   line-height: 22px;
 }
-/* line 314, ../sass/dashboard-menu.scss */
+/* line 335, ../sass/dashboard-menu.scss */
 .campaign-create {
   margin-top: 32px;
 }
-/* line 317, ../sass/dashboard-menu.scss */
+/* line 338, ../sass/dashboard-menu.scss */
 .campaign-create-btn {
   border: none;
   border-radius: 6px;
@@ -328,11 +352,11 @@ header #btn-menu {
   width: 100%;
   cursor: pointer;
 }
-/* line 327, ../sass/dashboard-menu.scss */
+/* line 348, ../sass/dashboard-menu.scss */
 .campaign-create-btn-icon {
   padding: 8px;
 }
-/* line 331, ../sass/dashboard-menu.scss */
+/* line 352, ../sass/dashboard-menu.scss */
 .campaign-create-btn-text {
   margin-left: 16.4px;
   width: 296px;
@@ -343,11 +367,11 @@ header #btn-menu {
   font-size: 16px;
   color: #FFFFFF;
 }
-/* line 344, ../sass/dashboard-menu.scss */
+/* line 365, ../sass/dashboard-menu.scss */
 .campaign-list {
   margin-top: 32px;
 }
-/* line 347, ../sass/dashboard-menu.scss */
+/* line 368, ../sass/dashboard-menu.scss */
 .campaign-list-card {
   display: grid;
   grid-template-columns: 132px auto;
@@ -361,7 +385,7 @@ header #btn-menu {
   margin-top: 16px;
   padding-bottom: 8px;
 }
-/* line 360, ../sass/dashboard-menu.scss */
+/* line 381, ../sass/dashboard-menu.scss */
 .campaign-list-card-img {
   background-image: url("../images/example2.jpg");
   background-size: cover;
@@ -371,7 +395,7 @@ header #btn-menu {
   grid-row-start: 1;
   grid-row-end: 4;
 }
-/* line 370, ../sass/dashboard-menu.scss */
+/* line 391, ../sass/dashboard-menu.scss */
 .campaign-list-card-title {
   margin-top: 10px;
   height: 44px;
@@ -380,13 +404,13 @@ header #btn-menu {
   font-size: 16px;
   overflow: hidden;
 }
-/* line 379, ../sass/dashboard-menu.scss */
+/* line 400, ../sass/dashboard-menu.scss */
 .campaign-list-card-bar {
   margin: 0 16px;
   background-color: #E5E5E5;
   border-radius: 2px;
 }
-/* line 384, ../sass/dashboard-menu.scss */
+/* line 405, ../sass/dashboard-menu.scss */
 .campaign-list-card-bar .progress-bar {
   display: block;
   width: 80%;
@@ -395,7 +419,7 @@ header #btn-menu {
   content: "";
   border-radius: 2px;
 }
-/* line 394, ../sass/dashboard-menu.scss */
+/* line 415, ../sass/dashboard-menu.scss */
 .campaign-list-card-info {
   padding: 0 16px;
   display: grid;
@@ -403,53 +427,53 @@ header #btn-menu {
   grid-template-rows: 17px 19px;
   row-gap: 2px;
 }
-/* line 401, ../sass/dashboard-menu.scss */
+/* line 422, ../sass/dashboard-menu.scss */
 .campaign-list-card-info .collected {
   justify-self: left;
   font-size: 12px;
   color: #666666;
   font-weight: 400;
 }
-/* line 408, ../sass/dashboard-menu.scss */
+/* line 429, ../sass/dashboard-menu.scss */
 .campaign-list-card-info .amount {
   justify-self: left;
   font-size: 14px;
   color: #666666;
   font-weight: 600;
 }
-/* line 415, ../sass/dashboard-menu.scss */
+/* line 436, ../sass/dashboard-menu.scss */
 .campaign-list-card-info .duration {
   justify-self: right;
   font-size: 12px;
   color: #666666;
   font-weight: 400;
 }
-/* line 422, ../sass/dashboard-menu.scss */
+/* line 443, ../sass/dashboard-menu.scss */
 .campaign-list-card-info .days {
   justify-self: right;
   font-size: 14px;
   color: #666666;
   font-weight: 600;
 }
-/* line 432, ../sass/dashboard-menu.scss */
+/* line 453, ../sass/dashboard-menu.scss */
 .campaign-link {
   margin-top: 32px;
   text-align: center;
 }
 
 /* Following */
-/* line 439, ../sass/dashboard-menu.scss */
+/* line 460, ../sass/dashboard-menu.scss */
 .follow {
   margin-top: 8px;
   background-color: #F8F8F8;
   padding: 24px 0;
 }
-/* line 444, ../sass/dashboard-menu.scss */
+/* line 465, ../sass/dashboard-menu.scss */
 .follow-title {
   font-size: 21px;
   color: #5E5E5E;
 }
-/* line 449, ../sass/dashboard-menu.scss */
+/* line 470, ../sass/dashboard-menu.scss */
 .follow-desc {
   margin-top: 16px;
   width: 320px;
@@ -457,7 +481,7 @@ header #btn-menu {
   color: #5E5E5E;
   line-height: 22px;
 }
-/* line 457, ../sass/dashboard-menu.scss */
+/* line 478, ../sass/dashboard-menu.scss */
 .follow-list {
   margin-top: 32px;
   display: grid;
@@ -465,7 +489,7 @@ header #btn-menu {
   grid-template-rows: repeat(2, auto);
   grid-gap: 16px;
 }
-/* line 464, ../sass/dashboard-menu.scss */
+/* line 485, ../sass/dashboard-menu.scss */
 .follow-list-card {
   display: block;
   background: #ffffff;
@@ -474,7 +498,7 @@ header #btn-menu {
   border-radius: 6px;
   padding-bottom: 24px;
 }
-/* line 472, ../sass/dashboard-menu.scss */
+/* line 493, ../sass/dashboard-menu.scss */
 .follow-list-card-img {
   background-image: url("../images/example2.jpg");
   background-size: cover;
@@ -482,7 +506,7 @@ header #btn-menu {
   width: 100%;
   height: 183px;
 }
-/* line 480, ../sass/dashboard-menu.scss */
+/* line 501, ../sass/dashboard-menu.scss */
 .follow-list-card-title {
   margin-top: 17px;
   font-size: 16px;
@@ -491,13 +515,13 @@ header #btn-menu {
   overflow: hidden;
   height: 48px;
 }
-/* line 489, ../sass/dashboard-menu.scss */
+/* line 510, ../sass/dashboard-menu.scss */
 .follow-list-card-bar {
   margin-top: 47px;
   background-color: #E5E5E5;
   border-radius: 2px;
 }
-/* line 494, ../sass/dashboard-menu.scss */
+/* line 515, ../sass/dashboard-menu.scss */
 .follow-list-card-bar .progress-bar {
   display: block;
   width: 80%;
@@ -506,44 +530,44 @@ header #btn-menu {
   content: "";
   border-radius: 2px;
 }
-/* line 504, ../sass/dashboard-menu.scss */
+/* line 525, ../sass/dashboard-menu.scss */
 .follow-list-card-info {
   margin-top: 9px;
   display: grid;
   grid-template-rows: 17px 22px;
   row-gap: 2px;
 }
-/* line 510, ../sass/dashboard-menu.scss */
+/* line 531, ../sass/dashboard-menu.scss */
 .follow-list-card-info .collected {
   font-size: 12px;
   color: #666666;
   font-weight: 400;
 }
-/* line 516, ../sass/dashboard-menu.scss */
+/* line 537, ../sass/dashboard-menu.scss */
 .follow-list-card-info .amount {
   font-size: 16px;
   color: #666666;
   font-weight: 600;
 }
-/* line 525, ../sass/dashboard-menu.scss */
+/* line 546, ../sass/dashboard-menu.scss */
 .follow-link {
   margin-top: 32px;
   text-align: center;
 }
 
 /* Category */
-/* line 532, ../sass/dashboard-menu.scss */
+/* line 553, ../sass/dashboard-menu.scss */
 .category {
   margin-top: 8px;
   background-color: #F8F8F8;
   padding: 24px 0;
 }
-/* line 537, ../sass/dashboard-menu.scss */
+/* line 558, ../sass/dashboard-menu.scss */
 .category-title {
   font-size: 21px;
   color: #5E5E5E;
 }
-/* line 542, ../sass/dashboard-menu.scss */
+/* line 563, ../sass/dashboard-menu.scss */
 .category-desc {
   margin: 16px 0 32px;
   width: 320px;
@@ -551,17 +575,17 @@ header #btn-menu {
   color: #5E5E5E;
   line-height: 22px;
 }
-/* line 550, ../sass/dashboard-menu.scss */
+/* line 571, ../sass/dashboard-menu.scss */
 .category-buttons {
   display: flex;
   margin: 0 -11px;
 }
-/* line 554, ../sass/dashboard-menu.scss */
+/* line 575, ../sass/dashboard-menu.scss */
 .category-buttons-item {
   padding: 0 11px;
   text-align: center;
 }
-/* line 559, ../sass/dashboard-menu.scss */
+/* line 580, ../sass/dashboard-menu.scss */
 .category-buttons-item-btn .category-btn {
   border: none;
   border-radius: 50%;
@@ -570,45 +594,45 @@ header #btn-menu {
   height: 56px;
   cursor: pointer;
 }
-/* line 567, ../sass/dashboard-menu.scss */
+/* line 588, ../sass/dashboard-menu.scss */
 .category-buttons-item-btn .category-btn .default {
   margin: auto;
   display: block;
   width: 30px;
   height: 30px;
 }
-/* line 574, ../sass/dashboard-menu.scss */
+/* line 595, ../sass/dashboard-menu.scss */
 .category-buttons-item-btn .category-btn .active {
   margin: auto;
   display: none;
   width: 30px;
   height: 30px;
 }
-/* line 581, ../sass/dashboard-menu.scss */
+/* line 602, ../sass/dashboard-menu.scss */
 .category-buttons-item-btn .category-btn:focus {
   border: 1px solid #F3931B;
   background: transparent;
 }
-/* line 585, ../sass/dashboard-menu.scss */
+/* line 606, ../sass/dashboard-menu.scss */
 .category-buttons-item-btn .category-btn:focus .default {
   display: none;
 }
-/* line 589, ../sass/dashboard-menu.scss */
+/* line 610, ../sass/dashboard-menu.scss */
 .category-buttons-item-btn .category-btn:focus .active {
   display: block;
 }
-/* line 596, ../sass/dashboard-menu.scss */
+/* line 617, ../sass/dashboard-menu.scss */
 .category-buttons-item-text {
   margin-top: 4px;
   font-size: 12px;
   color: #666666;
   letter-spacing: 0;
 }
-/* line 605, ../sass/dashboard-menu.scss */
+/* line 626, ../sass/dashboard-menu.scss */
 .category-list {
   margin-top: 32px;
 }
-/* line 608, ../sass/dashboard-menu.scss */
+/* line 629, ../sass/dashboard-menu.scss */
 .category-list-card {
   display: grid;
   grid-template-columns: 132px auto;
@@ -622,7 +646,7 @@ header #btn-menu {
   margin-top: 16px;
   padding-bottom: 8px;
 }
-/* line 621, ../sass/dashboard-menu.scss */
+/* line 642, ../sass/dashboard-menu.scss */
 .category-list-card-img {
   background-image: url("../images/example2.jpg");
   background-size: cover;
@@ -632,7 +656,7 @@ header #btn-menu {
   grid-row-start: 1;
   grid-row-end: 4;
 }
-/* line 631, ../sass/dashboard-menu.scss */
+/* line 652, ../sass/dashboard-menu.scss */
 .category-list-card-title {
   margin-top: 10px;
   height: 44px;
@@ -641,13 +665,13 @@ header #btn-menu {
   font-size: 16px;
   overflow: hidden;
 }
-/* line 640, ../sass/dashboard-menu.scss */
+/* line 661, ../sass/dashboard-menu.scss */
 .category-list-card-bar {
   margin: 0 16px;
   background-color: #E5E5E5;
   border-radius: 2px;
 }
-/* line 645, ../sass/dashboard-menu.scss */
+/* line 666, ../sass/dashboard-menu.scss */
 .category-list-card-bar .progress-bar {
   display: block;
   width: 80%;
@@ -656,7 +680,7 @@ header #btn-menu {
   content: "";
   border-radius: 2px;
 }
-/* line 655, ../sass/dashboard-menu.scss */
+/* line 676, ../sass/dashboard-menu.scss */
 .category-list-card-info {
   padding: 0 16px;
   display: grid;
@@ -664,53 +688,53 @@ header #btn-menu {
   grid-template-rows: 17px 19px;
   row-gap: 2px;
 }
-/* line 662, ../sass/dashboard-menu.scss */
+/* line 683, ../sass/dashboard-menu.scss */
 .category-list-card-info .collected {
   justify-self: left;
   font-size: 12px;
   color: #666666;
   font-weight: 400;
 }
-/* line 669, ../sass/dashboard-menu.scss */
+/* line 690, ../sass/dashboard-menu.scss */
 .category-list-card-info .amount {
   justify-self: left;
   font-size: 14px;
   color: #666666;
   font-weight: 600;
 }
-/* line 676, ../sass/dashboard-menu.scss */
+/* line 697, ../sass/dashboard-menu.scss */
 .category-list-card-info .duration {
   justify-self: right;
   font-size: 12px;
   color: #666666;
   font-weight: 400;
 }
-/* line 683, ../sass/dashboard-menu.scss */
+/* line 704, ../sass/dashboard-menu.scss */
 .category-list-card-info .days {
   justify-self: right;
   font-size: 14px;
   color: #666666;
   font-weight: 600;
 }
-/* line 693, ../sass/dashboard-menu.scss */
+/* line 714, ../sass/dashboard-menu.scss */
 .category-link {
   margin-top: 32px;
   text-align: center;
 }
 
 /* News */
-/* line 700, ../sass/dashboard-menu.scss */
+/* line 721, ../sass/dashboard-menu.scss */
 .news {
   margin-top: 8px;
   background-color: #F8F8F8;
   padding: 24px 0;
 }
-/* line 705, ../sass/dashboard-menu.scss */
+/* line 726, ../sass/dashboard-menu.scss */
 .news-title {
   font-size: 21px;
   color: #5E5E5E;
 }
-/* line 710, ../sass/dashboard-menu.scss */
+/* line 731, ../sass/dashboard-menu.scss */
 .news-desc {
   margin: 16px 0 32px;
   width: 320px;
@@ -718,11 +742,11 @@ header #btn-menu {
   color: #5E5E5E;
   line-height: 22px;
 }
-/* line 718, ../sass/dashboard-menu.scss */
+/* line 739, ../sass/dashboard-menu.scss */
 .news-list {
   margin-top: 32px;
 }
-/* line 721, ../sass/dashboard-menu.scss */
+/* line 742, ../sass/dashboard-menu.scss */
 .news-list-card {
   display: grid;
   grid-template-columns: 132px auto;
@@ -734,7 +758,7 @@ header #btn-menu {
   margin-top: 16px;
   padding-bottom: 8px;
 }
-/* line 732, ../sass/dashboard-menu.scss */
+/* line 753, ../sass/dashboard-menu.scss */
 .news-list-card-img {
   background-image: url("../images/example2.jpg");
   background-size: cover;
@@ -742,25 +766,82 @@ header #btn-menu {
   width: 132px;
   height: 132px;
 }
-/* line 740, ../sass/dashboard-menu.scss */
+/* line 761, ../sass/dashboard-menu.scss */
 .news-list-card-text {
   padding: 0 12px;
 }
-/* line 743, ../sass/dashboard-menu.scss */
+/* line 764, ../sass/dashboard-menu.scss */
 .news-list-card-text-title {
   margin-top: 10px;
   color: #666666;
   font-size: 16px;
   overflow: hidden;
 }
-/* line 750, ../sass/dashboard-menu.scss */
+/* line 771, ../sass/dashboard-menu.scss */
 .news-list-card-text-date {
   margin-top: 16px;
   font-size: 12px;
   color: #999999;
 }
-/* line 759, ../sass/dashboard-menu.scss */
+/* line 780, ../sass/dashboard-menu.scss */
 .news-link {
   margin-top: 32px;
   text-align: center;
+}
+
+/* Popup */
+/* line 787, ../sass/dashboard-menu.scss */
+.popup {
+  display: block;
+  width: 366px;
+  height: 394px;
+  background-color: #FFFFFF;
+  padding: 16px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  z-index: 3;
+}
+/* line 802, ../sass/dashboard-menu.scss */
+.popup-icon {
+  margin-top: 48px;
+  text-align: center;
+}
+/* line 806, ../sass/dashboard-menu.scss */
+.popup-icon img {
+  width: 80px;
+  height: 80px;
+}
+/* line 812, ../sass/dashboard-menu.scss */
+.popup-title {
+  margin: 32px 0 8px;
+  font-size: 28px;
+  color: #5E5E5E;
+  text-align: center;
+}
+/* line 819, ../sass/dashboard-menu.scss */
+.popup-text {
+  margin: auto;
+  font-size: 14px;
+  color: #5E5E5E;
+  text-align: center;
+  line-height: 24px;
+  width: 254px;
+}
+/* line 828, ../sass/dashboard-menu.scss */
+.popup-button {
+  position: absolute;
+  bottom: 16px;
+  width: 334px;
+}
+
+/* line 835, ../sass/dashboard-menu.scss */
+.popup.active {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s;
 }

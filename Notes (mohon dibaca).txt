@@ -1,0 +1,13 @@
+- Setelah didownload, tolong diubah dulu nama
+foldernya dari "binuscare-dashboard-repo-master" jadi
+"binuscare-dashboard-repo" agar code htmlnya sesuai
+
+- Untuk memunculkan popup, untuk sementara saya
+taruh fungsi di tulisan BINUS Care dan tombol
+Search di bagian header.
+
+Klik BINUS Care -> Popup error
+Klik Search -> Popup success
+
+Sekian, terima kasih
+- Georgius Andrian

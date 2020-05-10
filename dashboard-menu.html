@@ -47,493 +47,532 @@
         </div>
     </div>
 
-    <header>
-        <span class="open-sans-bold">BINUS Care</span>
-        <img src="../binuscare-dashboard-repo/assets/icons/btn-search.svg" alt="" id="btn-search">
-        <img src="../binuscare-dashboard-repo/assets/icons/btn-menu-burger.svg" alt="" id="btn-menu" onclick="openMenu()">
-    </header>
+    <div id="black-overlay" class="default"></div>
 
-    <!-- Carousel -->
-    <section class="carousel">
-        <div class="wrapper">
-            <div class="banner">
-                <div class="glide__track" data-glide-el="track">
-                  <ul class="glide__slides">
-                    <li class="glide__slide">
-                        <div class="carousel-item">
-                            <div class="carousel-item-overlay">
-                                <div class="carousel-item-title">
-                                    <span class="open-sans-semibold">1 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="carousel-item">
-                            <div class="carousel-item-overlay">
-                                <div class="carousel-item-title">
-                                    <span class="open-sans-semibold">2 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="carousel-item">
-                            <div class="carousel-item-overlay">
-                                <div class="carousel-item-title">
-                                    <span class="open-sans-semibold">3 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="carousel-item">
-                            <div class="carousel-item-overlay">
-                                <div class="carousel-item-title">
-                                    <span class="open-sans-semibold">4 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="carousel-item">
-                            <div class="carousel-item-overlay">
-                                <div class="carousel-item-title">
-                                    <span class="open-sans-semibold">5 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="glide__bullets" data-glide-el="controls[nav]">
-                    <button class="glide__bullet" data-glide-dir="=0"></button>
-                    <button class="glide__bullet" data-glide-dir="=1"></button>
-                    <button class="glide__bullet" data-glide-dir="=2"></button>
-                    <button class="glide__bullet" data-glide-dir="=3"></button>
-                    <button class="glide__bullet" data-glide-dir="=4"></button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Donasi Saya -->
-    <section class="donation">
-        <div class="wrapper">
-            <div class="donation-title">
-                <span class="open-sans-semibold">Donasi Saya</span>
-            </div>
-            <div class="donation-desc">
-                <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
-            </div>
-            <div class="donation-slider">
-                <div class="glide__track" data-glide-el="track">
-                  <ul class="glide__slides">
-                    <li class="glide__slide">
-                        <div class="donation-content">
-                            <div class="donation-content-card">
-                                <div class="donation-content-card-img">
-                                </div>
-                                <div class="wrapper">
-                                    <div class="donation-content-card-title">
-                                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                                    </div>
-                                    <div class="donation-content-card-bar">
-                                        <span class="progress-bar"></span>
-                                    </div>
-                                    <div class="donation-content-card-info">
-                                        <span class="collected">Terkumpul</span>
-                                        <span class="duration">Sisa hari</span>
-                                        <span class="amount">Rp. 20.000.000,-</span>
-                                        <span class="days">5</span>
+    <div id="blur-overlay" class="default">
+        <header>
+            <span class="open-sans-bold" onclick="toggleError()">BINUS Care</span>
+            <img src="../binuscare-dashboard-repo/assets/icons/btn-search.svg" alt="" id="btn-search" onclick="toggleSuccess()">
+            <img src="../binuscare-dashboard-repo/assets/icons/btn-menu-burger.svg" alt="" id="btn-menu" onclick="openMenu()">
+        </header>
+    
+        <!-- Carousel -->
+        <section class="carousel">
+            <div class="wrapper">
+                <div class="banner">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="carousel-item">
+                                <div class="carousel-item-overlay">
+                                    <div class="carousel-item-title">
+                                        <span class="open-sans-semibold">1 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="donation-content">
-                            <div class="donation-content-card">
-                                <div class="donation-content-card-img">
-                                </div>
-                                <div class="wrapper">
-                                    <div class="donation-content-card-title">
-                                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                                    </div>
-                                    <div class="donation-content-card-bar">
-                                        <span class="progress-bar"></span>
-                                    </div>
-                                    <div class="donation-content-card-info">
-                                        <span class="collected">Terkumpul</span>
-                                        <span class="duration">Sisa hari</span>
-                                        <span class="amount">Rp. 20.000.000,-</span>
-                                        <span class="days">5</span>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="carousel-item">
+                                <div class="carousel-item-overlay">
+                                    <div class="carousel-item-title">
+                                        <span class="open-sans-semibold">2 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="donation-content-new">
-                            <div class="donation-content-new-icon">
-                                <img src="../binuscare-dashboard-repo/assets/icons/ic-add.svg" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <div class="carousel-item">
+                                <div class="carousel-item-overlay">
+                                    <div class="carousel-item-title">
+                                        <span class="open-sans-semibold">3 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
+                                    </div>
+                                </div>
                             </div>
-                            <button class="new-donate-btn"><span class="open-sans-semibold">SAYA MAU BERDONASI</span></button>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="carousel-item">
+                                <div class="carousel-item-overlay">
+                                    <div class="carousel-item-title">
+                                        <span class="open-sans-semibold">4 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="carousel-item">
+                                <div class="carousel-item-overlay">
+                                    <div class="carousel-item-title">
+                                        <span class="open-sans-semibold">5 Creating Remarkable Poster Prints Through 4 Color Poster Printing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
+    
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                        <button class="glide__bullet" data-glide-dir="=3"></button>
+                        <button class="glide__bullet" data-glide-dir="=4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Donasi Saya -->
+        <section class="donation">
+            <div class="wrapper">
+                <div class="donation-title">
+                    <span class="open-sans-semibold">Donasi Saya</span>
+                </div>
+                <div class="donation-desc">
+                    <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
+                </div>
+                <div class="donation-slider">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="donation-content">
+                                <div class="donation-content-card">
+                                    <div class="donation-content-card-img">
+                                    </div>
+                                    <div class="wrapper">
+                                        <div class="donation-content-card-title">
+                                            <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                                        </div>
+                                        <div class="donation-content-card-bar">
+                                            <span class="progress-bar"></span>
+                                        </div>
+                                        <div class="donation-content-card-info">
+                                            <span class="collected">Terkumpul</span>
+                                            <span class="duration">Sisa hari</span>
+                                            <span class="amount">Rp. 20.000.000,-</span>
+                                            <span class="days">5</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="donation-content">
+                                <div class="donation-content-card">
+                                    <div class="donation-content-card-img">
+                                    </div>
+                                    <div class="wrapper">
+                                        <div class="donation-content-card-title">
+                                            <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                                        </div>
+                                        <div class="donation-content-card-bar">
+                                            <span class="progress-bar"></span>
+                                        </div>
+                                        <div class="donation-content-card-info">
+                                            <span class="collected">Terkumpul</span>
+                                            <span class="duration">Sisa hari</span>
+                                            <span class="amount">Rp. 20.000.000,-</span>
+                                            <span class="days">5</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="donation-content-new">
+                                <div class="donation-content-new-icon">
+                                    <img src="../binuscare-dashboard-repo/assets/icons/ic-add.svg" alt="">
+                                </div>
+                                <button class="new-donate-btn"><span class="open-sans-semibold">SAYA MAU BERDONASI</span></button>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="donation-link">
+                    <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Galang Dana Saya -->
+        <section class="campaign">
+            <div class="wrapper">
+                <div class="campaign-title">
+                    <span class="open-sans-semibold">Galang Dana Saya</span>
+                </div>
+                <div class="campaign-desc">
+                    <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
+                </div>
+                <div class="campaign-create">
+                    <button class="campaign-create-btn">
+                        <div class="campaign-create-btn-icon">
+                            <img src="../binuscare-dashboard-repo/assets/icons/ic-add.svg" alt="">
                         </div>
-                    </li>
-                  </ul>
+                        <div class="campaign-create-btn-text">
+                            <span class="open-sans-semibold">BUAT PENGGALANGAN DANA</span>
+                        </div>
+                    </button>
                 </div>
-            </div>
-            <div class="donation-link">
-                <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Galang Dana Saya -->
-    <section class="campaign">
-        <div class="wrapper">
-            <div class="campaign-title">
-                <span class="open-sans-semibold">Galang Dana Saya</span>
-            </div>
-            <div class="campaign-desc">
-                <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
-            </div>
-            <div class="campaign-create">
-                <button class="campaign-create-btn">
-                    <div class="campaign-create-btn-icon">
-                        <img src="../binuscare-dashboard-repo/assets/icons/ic-add.svg" alt="">
-                    </div>
-                    <div class="campaign-create-btn-text">
-                        <span class="open-sans-semibold">BUAT PENGGALANGAN DANA</span>
-                    </div>
-                </button>
-            </div>
-            <div class="campaign-list">
-                <div class="campaign-list-card">
-                    <div class="campaign-list-card-img">
-                    </div>
-                    <div class="campaign-list-card-title">
-                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                    </div>
-                    <div class="campaign-list-card-bar">
-                        <span class="progress-bar"></span>
-                    </div>
-                    <div class="campaign-list-card-info">
-                        <span class="collected">Terkumpul</span>
-                        <span class="duration">Sisa hari</span>
-                        <span class="amount">Rp. 20.000.000,-</span>
-                        <span class="days">5</span>
-                    </div>
-                </div>
-                
-                <div class="campaign-list-card">
-                    <div class="campaign-list-card-img">
-                    </div>
-                    <div class="campaign-list-card-title">
-                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                    </div>
-                    <div class="campaign-list-card-bar">
-                        <span class="progress-bar"></span>
-                    </div>
-                    <div class="campaign-list-card-info">
-                        <span class="collected">Terkumpul</span>
-                        <span class="duration">Sisa hari</span>
-                        <span class="amount">Rp. 20.000.000,-</span>
-                        <span class="days">5</span>
-                    </div>
-                </div>
-
-                <div class="campaign-list-card">
-                    <div class="campaign-list-card-img">
-                    </div>
-                    <div class="campaign-list-card-title">
-                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                    </div>
-                    <div class="campaign-list-card-bar">
-                        <span class="progress-bar"></span>
-                    </div>
-                    <div class="campaign-list-card-info">
-                        <span class="collected">Terkumpul</span>
-                        <span class="duration">Sisa hari</span>
-                        <span class="amount">Rp. 20.000.000,-</span>
-                        <span class="days">5</span>
-                    </div>
-                </div>
-            </div>
-            <div class="campaign-link">
-                <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Following -->
-    <section class="follow">
-        <div class="wrapper">
-            <div class="follow-title">
-                <span class="open-sans-semibold">Mengikuti Galang Dana</span>
-            </div>
-            <div class="follow-desc">
-                <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
-            </div>
-            <div class="follow-list">
-                <div class="follow-list-card">
-                    <div class="follow-list-card-img">
-                    </div>
-                    <div class="wrapper">
-                        <div class="follow-list-card-title">
+                <div class="campaign-list">
+                    <div class="campaign-list-card">
+                        <div class="campaign-list-card-img">
+                        </div>
+                        <div class="campaign-list-card-title">
                             <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
                         </div>
-                        <div class="follow-list-card-bar">
+                        <div class="campaign-list-card-bar">
                             <span class="progress-bar"></span>
                         </div>
-                        <div class="follow-list-card-info">
+                        <div class="campaign-list-card-info">
                             <span class="collected">Terkumpul</span>
+                            <span class="duration">Sisa hari</span>
                             <span class="amount">Rp. 20.000.000,-</span>
+                            <span class="days">5</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="follow-list-card">
-                    <div class="follow-list-card-img">
-                    </div>
-                    <div class="wrapper">
-                        <div class="follow-list-card-title">
+                    
+                    <div class="campaign-list-card">
+                        <div class="campaign-list-card-img">
+                        </div>
+                        <div class="campaign-list-card-title">
                             <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
                         </div>
-                        <div class="follow-list-card-bar">
+                        <div class="campaign-list-card-bar">
                             <span class="progress-bar"></span>
                         </div>
-                        <div class="follow-list-card-info">
+                        <div class="campaign-list-card-info">
                             <span class="collected">Terkumpul</span>
+                            <span class="duration">Sisa hari</span>
                             <span class="amount">Rp. 20.000.000,-</span>
+                            <span class="days">5</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="follow-list-card">
-                    <div class="follow-list-card-img">
-                    </div>
-                    <div class="wrapper">
-                        <div class="follow-list-card-title">
+    
+                    <div class="campaign-list-card">
+                        <div class="campaign-list-card-img">
+                        </div>
+                        <div class="campaign-list-card-title">
                             <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
                         </div>
-                        <div class="follow-list-card-bar">
+                        <div class="campaign-list-card-bar">
                             <span class="progress-bar"></span>
                         </div>
-                        <div class="follow-list-card-info">
+                        <div class="campaign-list-card-info">
                             <span class="collected">Terkumpul</span>
+                            <span class="duration">Sisa hari</span>
                             <span class="amount">Rp. 20.000.000,-</span>
+                            <span class="days">5</span>
                         </div>
                     </div>
                 </div>
-
-                <div class="follow-list-card">
-                    <div class="follow-list-card-img">
+                <div class="campaign-link">
+                    <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Following -->
+        <section class="follow">
+            <div class="wrapper">
+                <div class="follow-title">
+                    <span class="open-sans-semibold">Mengikuti Galang Dana</span>
+                </div>
+                <div class="follow-desc">
+                    <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
+                </div>
+                <div class="follow-list">
+                    <div class="follow-list-card">
+                        <div class="follow-list-card-img">
+                        </div>
+                        <div class="wrapper">
+                            <div class="follow-list-card-title">
+                                <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                            </div>
+                            <div class="follow-list-card-bar">
+                                <span class="progress-bar"></span>
+                            </div>
+                            <div class="follow-list-card-info">
+                                <span class="collected">Terkumpul</span>
+                                <span class="amount">Rp. 20.000.000,-</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="wrapper">
-                        <div class="follow-list-card-title">
+    
+                    <div class="follow-list-card">
+                        <div class="follow-list-card-img">
+                        </div>
+                        <div class="wrapper">
+                            <div class="follow-list-card-title">
+                                <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                            </div>
+                            <div class="follow-list-card-bar">
+                                <span class="progress-bar"></span>
+                            </div>
+                            <div class="follow-list-card-info">
+                                <span class="collected">Terkumpul</span>
+                                <span class="amount">Rp. 20.000.000,-</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="follow-list-card">
+                        <div class="follow-list-card-img">
+                        </div>
+                        <div class="wrapper">
+                            <div class="follow-list-card-title">
+                                <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                            </div>
+                            <div class="follow-list-card-bar">
+                                <span class="progress-bar"></span>
+                            </div>
+                            <div class="follow-list-card-info">
+                                <span class="collected">Terkumpul</span>
+                                <span class="amount">Rp. 20.000.000,-</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="follow-list-card">
+                        <div class="follow-list-card-img">
+                        </div>
+                        <div class="wrapper">
+                            <div class="follow-list-card-title">
+                                <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                            </div>
+                            <div class="follow-list-card-bar">
+                                <span class="progress-bar"></span>
+                            </div>
+                            <div class="follow-list-card-info">
+                                <span class="collected">Terkumpul</span>
+                                <span class="amount">Rp. 20.000.000,-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="follow-link">
+                    <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Category -->
+        <section class="category">
+            <div class="wrapper">
+                <div class="category-title">
+                    <span class="open-sans-semibold">Pilih Kategori Favoritmu</span>
+                </div>
+                <div class="category-desc">
+                    <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
+                </div>
+                <div class="category-buttons">
+                    <div class="category-buttons-item">
+                        <div class="category-buttons-item-btn">
+                            <button class="category-btn" id="kesehatan">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-kesehatan-white.svg" alt="" class="default">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-kesehatan.svg" alt="" class="active">
+                            </button>
+                        </div>
+                        <div class="category-buttons-item-text">
+                            <span class="open-sans-regular">Kesehatan</span>
+                        </div>
+                    </div>
+    
+                    <div class="category-buttons-item">
+                        <div class="category-buttons-item-btn">
+                            <button class="category-btn" id="kesehatan">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-pendidikan-white.svg" alt="" class="default">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-pendidikan.svg" alt="" class="active">
+                            </button>
+                        </div>
+                        <div class="category-buttons-item-text">
+                            <span class="open-sans-regular">Pendidikan</span>
+                        </div>
+                    </div>
+    
+                    <div class="category-buttons-item">
+                        <div class="category-buttons-item-btn">
+                            <button class="category-btn" id="kesehatan">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-bencana-white.svg" alt="" class="default">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-bencana.svg" alt="" class="active">
+                            </button>
+                        </div>
+                        <div class="category-buttons-item-text">
+                            <span class="open-sans-regular">Bencana</span>
+                        </div>
+                    </div>
+    
+                    <div class="category-buttons-item">
+                        <div class="category-buttons-item-btn">
+                            <button class="category-btn" id="kesehatan">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-komunitas-white.svg" alt="" class="default">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-komunitas.svg" alt="" class="active">
+                            </button>
+                        </div>
+                        <div class="category-buttons-item-text">
+                            <span class="open-sans-regular">Komunitas</span>
+                        </div>
+                    </div>
+    
+                    <div class="category-buttons-item">
+                        <div class="category-buttons-item-btn">
+                            <button class="category-btn" id="kesehatan">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-more-white.svg" alt="" class="default">
+                                <img src="../binuscare-dashboard-repo/assets/icons/icon-more.svg" alt="" class="active">
+                            </button>
+                        </div>
+                        <div class="category-buttons-item-text">
+                            <span class="open-sans-regular">Lainnya</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-list">
+                    <div class="category-list-card">
+                        <div class="category-list-card-img">
+                        </div>
+                        <div class="category-list-card-title">
                             <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
                         </div>
-                        <div class="follow-list-card-bar">
+                        <div class="category-list-card-bar">
                             <span class="progress-bar"></span>
                         </div>
-                        <div class="follow-list-card-info">
+                        <div class="category-list-card-info">
                             <span class="collected">Terkumpul</span>
+                            <span class="duration">Sisa hari</span>
                             <span class="amount">Rp. 20.000.000,-</span>
+                            <span class="days">5</span>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="follow-link">
-                <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Category -->
-    <section class="category">
-        <div class="wrapper">
-            <div class="category-title">
-                <span class="open-sans-semibold">Pilih Kategori Favoritmu</span>
-            </div>
-            <div class="category-desc">
-                <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
-            </div>
-            <div class="category-buttons">
-                <div class="category-buttons-item">
-                    <div class="category-buttons-item-btn">
-                        <button class="category-btn" id="kesehatan">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-kesehatan-white.svg" alt="" class="default">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-kesehatan.svg" alt="" class="active">
-                        </button>
-                    </div>
-                    <div class="category-buttons-item-text">
-                        <span class="open-sans-regular">Kesehatan</span>
-                    </div>
-                </div>
-
-                <div class="category-buttons-item">
-                    <div class="category-buttons-item-btn">
-                        <button class="category-btn" id="kesehatan">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-pendidikan-white.svg" alt="" class="default">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-pendidikan.svg" alt="" class="active">
-                        </button>
-                    </div>
-                    <div class="category-buttons-item-text">
-                        <span class="open-sans-regular">Pendidikan</span>
-                    </div>
-                </div>
-
-                <div class="category-buttons-item">
-                    <div class="category-buttons-item-btn">
-                        <button class="category-btn" id="kesehatan">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-bencana-white.svg" alt="" class="default">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-bencana.svg" alt="" class="active">
-                        </button>
-                    </div>
-                    <div class="category-buttons-item-text">
-                        <span class="open-sans-regular">Bencana</span>
-                    </div>
-                </div>
-
-                <div class="category-buttons-item">
-                    <div class="category-buttons-item-btn">
-                        <button class="category-btn" id="kesehatan">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-komunitas-white.svg" alt="" class="default">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-komunitas.svg" alt="" class="active">
-                        </button>
-                    </div>
-                    <div class="category-buttons-item-text">
-                        <span class="open-sans-regular">Komunitas</span>
-                    </div>
-                </div>
-
-                <div class="category-buttons-item">
-                    <div class="category-buttons-item-btn">
-                        <button class="category-btn" id="kesehatan">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-more-white.svg" alt="" class="default">
-                            <img src="../binuscare-dashboard-repo/assets/icons/icon-more.svg" alt="" class="active">
-                        </button>
-                    </div>
-                    <div class="category-buttons-item-text">
-                        <span class="open-sans-regular">Lainnya</span>
-                    </div>
-                </div>
-            </div>
-            <div class="category-list">
-                <div class="category-list-card">
-                    <div class="category-list-card-img">
-                    </div>
-                    <div class="category-list-card-title">
-                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                    </div>
-                    <div class="category-list-card-bar">
-                        <span class="progress-bar"></span>
-                    </div>
-                    <div class="category-list-card-info">
-                        <span class="collected">Terkumpul</span>
-                        <span class="duration">Sisa hari</span>
-                        <span class="amount">Rp. 20.000.000,-</span>
-                        <span class="days">5</span>
-                    </div>
-                </div>
-                
-                <div class="category-list-card">
-                    <div class="category-list-card-img">
-                    </div>
-                    <div class="category-list-card-title">
-                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                    </div>
-                    <div class="category-list-card-bar">
-                        <span class="progress-bar"></span>
-                    </div>
-                    <div class="category-list-card-info">
-                        <span class="collected">Terkumpul</span>
-                        <span class="duration">Sisa hari</span>
-                        <span class="amount">Rp. 20.000.000,-</span>
-                        <span class="days">5</span>
-                    </div>
-                </div>
-
-                <div class="category-list-card">
-                    <div class="category-list-card-img">
-                    </div>
-                    <div class="category-list-card-title">
-                        <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                    </div>
-                    <div class="category-list-card-bar">
-                        <span class="progress-bar"></span>
-                    </div>
-                    <div class="category-list-card-info">
-                        <span class="collected">Terkumpul</span>
-                        <span class="duration">Sisa hari</span>
-                        <span class="amount">Rp. 20.000.000,-</span>
-                        <span class="days">5</span>
-                    </div>
-                </div>
-            </div>
-            <div class="category-link">
-                <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- News -->
-    <section class="news">
-        <div class="wrapper">
-            <div class="news-title">
-                <span class="open-sans-semibold">Binus Care News</span>
-            </div>
-            <div class="news-desc">
-                <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
-            </div>
-            <div class="news-list">
-                <div class="news-list-card">
-                    <div class="news-list-card-img">
-                    </div>
-                    <div class="news-list-card-text">
-                        <div class="news-list-card-text-title">
+                    
+                    <div class="category-list-card">
+                        <div class="category-list-card-img">
+                        </div>
+                        <div class="category-list-card-title">
                             <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
                         </div>
-                        <div class="news-list-card-text-date">
-                            <span class="open-sans-regular">March 22, 2019</span>
+                        <div class="category-list-card-bar">
+                            <span class="progress-bar"></span>
+                        </div>
+                        <div class="category-list-card-info">
+                            <span class="collected">Terkumpul</span>
+                            <span class="duration">Sisa hari</span>
+                            <span class="amount">Rp. 20.000.000,-</span>
+                            <span class="days">5</span>
                         </div>
                     </div>
-                </div>
-                
-                <div class="news-list-card">
-                    <div class="news-list-card-img">
-                    </div>
-                    <div class="news-list-card-text">
-                        <div class="news-list-card-text-title">
+    
+                    <div class="category-list-card">
+                        <div class="category-list-card-img">
+                        </div>
+                        <div class="category-list-card-title">
                             <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
                         </div>
-                        <div class="news-list-card-text-date">
-                            <span class="open-sans-regular">March 22, 2019</span>
+                        <div class="category-list-card-bar">
+                            <span class="progress-bar"></span>
+                        </div>
+                        <div class="category-list-card-info">
+                            <span class="collected">Terkumpul</span>
+                            <span class="duration">Sisa hari</span>
+                            <span class="amount">Rp. 20.000.000,-</span>
+                            <span class="days">5</span>
                         </div>
                     </div>
                 </div>
+                <div class="category-link">
+                    <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- News -->
+        <section class="news">
+            <div class="wrapper">
+                <div class="news-title">
+                    <span class="open-sans-semibold">Binus Care News</span>
+                </div>
+                <div class="news-desc">
+                    <span class="open-sans-regular">Marketers/advertisers usually focus their efforts on the people responsible</span>
+                </div>
+                <div class="news-list">
+                    <div class="news-list-card">
+                        <div class="news-list-card-img">
+                        </div>
+                        <div class="news-list-card-text">
+                            <div class="news-list-card-text-title">
+                                <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                            </div>
+                            <div class="news-list-card-text-date">
+                                <span class="open-sans-regular">March 22, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="news-list-card">
+                        <div class="news-list-card-img">
+                        </div>
+                        <div class="news-list-card-text">
+                            <div class="news-list-card-text-title">
+                                <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                            </div>
+                            <div class="news-list-card-text-date">
+                                <span class="open-sans-regular">March 22, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="news-list-card">
+                        <div class="news-list-card-img">
+                        </div>
+                        <div class="news-list-card-text">
+                            <div class="news-list-card-text-title">
+                                <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
+                            </div>
+                            <div class="news-list-card-text-date">
+                                <span class="open-sans-regular">March 22, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-link">
+                    <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
+                </div>
+            </div>
+        </section>
+    </div>
 
-                <div class="news-list-card">
-                    <div class="news-list-card-img">
-                    </div>
-                    <div class="news-list-card-text">
-                        <div class="news-list-card-text-title">
-                            <span class="open-sans-semibold">It S Classified How To Utilize Free Classified Ad Sites To Boost Business</span>
-                        </div>
-                        <div class="news-list-card-text-date">
-                            <span class="open-sans-regular">March 22, 2019</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="news-link">
-                <a href="#"><button class="transparent-button" type="button"><span class="open-sans-regular">Lihat Semua</span></button></a>
-            </div>
+    <!-- Success Popup -->
+    <div id="popup-success" class="popup">
+        <div class="popup-icon">
+            <img src="../binuscare-dashboard-repo/assets/icons/ic-success.svg" alt="">
         </div>
-    </section>
+        <div class="popup-title">
+            <span class="open-sans-semibold">Success</span>
+        </div>
+        <div class="popup-text">
+            <span class="open-sans-regular">
+                Cold calling can be a great way to generate quality leads
+            </span>
+        </div>
+        <div class="popup-button">
+            <button class="orange-btn" onclick="toggleSuccess()"><span class="open-sans-semibold">OK</span></button>
+        </div>
+    </div>
+
+    <div id="popup-error" class="popup">
+        <div class="popup-icon">
+            <img src="../binuscare-dashboard-repo/assets/icons/ic-error.svg" alt="">
+        </div>
+        <div class="popup-title">
+            <span class="open-sans-semibold">Oops..</span>
+        </div>
+        <div class="popup-text">
+            <span class="open-sans-regular">
+                Cold calling can be a great way to generate quality leads
+            </span>
+        </div>
+        <div class="popup-button">
+            <button class="grey-btn"><span class="open-sans-semibold" onclick="toggleError()">TRY AGAIN</span></button>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script>
@@ -556,12 +595,38 @@
 
     <script type="text/javascript">
         function openMenu(){
-                    document.getElementById('sideMenu').style.width="320px";
-                }
+            var blur = document.getElementById('blur-overlay');
+            blur.classList.toggle('active');
+            var black = document.getElementById('black-overlay');
+            black.classList.toggle('active');
+            document.getElementById('sideMenu').style.width="320px";
+        }
 
-                function closeMenu(){
-                    document.getElementById('sideMenu').style.width="0";
-                }
+        function closeMenu(){
+            var blur = document.getElementById('blur-overlay');
+            blur.classList.toggle('active');
+            var black = document.getElementById('black-overlay');
+            black.classList.toggle('active');
+            document.getElementById('sideMenu').style.width="0";
+        }
+
+        function toggleSuccess(){
+            var blur = document.getElementById('blur-overlay');
+            blur.classList.toggle('active');
+            var black = document.getElementById('black-overlay');
+            black.classList.toggle('active');
+            var success = document.getElementById('popup-success');
+            success.classList.toggle('active');
+        }
+
+        function toggleError(){
+            var blur = document.getElementById('blur-overlay');
+            blur.classList.toggle('active');
+            var black = document.getElementById('black-overlay');
+            black.classList.toggle('active');
+            var error = document.getElementById('popup-error');
+            error.classList.toggle('active');
+        }
     </script>
 </body>
 </html>
